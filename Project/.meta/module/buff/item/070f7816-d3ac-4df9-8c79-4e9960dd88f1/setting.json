@@ -1,0 +1,21 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Red Spinning Light Pillar Effect/gfxy207_rotating aperture_01_red_3d.effect"
+      }
+    },
+    "name": {
+      "value": "buff_070f7816-d3ac-4df9-8c79-4e9960dd88f1"
+    },
+    "sound": {
+      "selfOnly": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bbe7ba17ec13e1bb979aaf2613c60b66"
+    },
+    "VERSION": "0.23"
+  }
+}

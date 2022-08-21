@@ -1,0 +1,4 @@
+DROPITEM_PICKED {
+	ConsumeItem2(entity = $obj1, item = "myplugin/4e397ea3-6918-4e31-bea0-d3b1f9641435", num = 1, reason = "")
+	AddEntityBuff(buffTime = 100, cfg = "myplugin/76d747ed-4695-4d47-ba4d-3b1ffa0e1d89", entity = $obj1)
+}

@@ -1,0 +1,21 @@
+{
+  "data": {
+    "name": {
+      "value": "reward_023a0417-ee5c-4793-a2ae-b31e02df47f7"
+    },
+    "rewardArray": [
+      {
+        "base": {
+          "__OBJ_TYPE": "RewardCoin"
+        },
+        "type": "Coin"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c67f2128d4b928cf636d31f620dbe3e4"
+    },
+    "VERSION": "0.23"
+  }
+}

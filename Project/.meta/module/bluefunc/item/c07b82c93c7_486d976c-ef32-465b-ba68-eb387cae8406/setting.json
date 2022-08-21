@@ -1,0 +1,214 @@
+{
+  "data": {
+    "name": {
+      "value": "UpdateMoneyText"
+    },
+    "params": [
+      {
+        "param_name": "player",
+        "param_type": "T_Entity"
+      }
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetHeadText",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "1be72f27-7db0-47d8-a1fd-d015a8f58aac"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "action": "fcd5af86-ae71-4c41-b1a1-deece7c33d47",
+                        "rawval": {
+                          "value": "f75f98ad-3f5d-49ec-8e74-cba04c4b95a1"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6a4013ea-33e9-4b13-a485-cd02025e7b48"
+              },
+              "pos": {
+                "x": 243
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Concat",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "Duit : "
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "action": "ac41120f-715f-4470-ab81-3ae362e2d5aa"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "fcd5af86-ae71-4c41-b1a1-deece7c33d47"
+              },
+              "pos": {
+                "x": 599,
+                "y": 124
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ToString",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "action": "414d431a-274f-4199-9863-13cba610cf33"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ac41120f-715f-4470-ab81-3ae362e2d5aa"
+              },
+              "pos": {
+                "x": 882,
+                "y": 145
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Duit"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "45c5a8bb-bb87-42ae-80f2-6cb895838007"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "414d431a-274f-4199-9863-13cba610cf33"
+              },
+              "pos": {
+                "x": 1203,
+                "y": 130
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "UpdateMoneyText",
+              "id": {
+                "value": "45c5a8bb-bb87-42ae-80f2-6cb895838007"
+              },
+              "pos": {
+                "x": 1565,
+                "y": 151
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "UpdateMoneyText",
+              "id": {
+                "value": "1be72f27-7db0-47d8-a1fd-d015a8f58aac"
+              },
+              "pos": {
+                "x": 593
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "cd84c1a3-958c-4ddb-ae60-e6e07b6691ca"
+            },
+            "type": "Function_Called"
+          },
+          "func_name": "UpdateMoneyText",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "6a4013ea-33e9-4b13-a485-cd02025e7b48"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "21c0327e-1c05-48c4-a5b4-8fde0005e821"
+            },
+            "pos": {
+              "x": 15,
+              "y": 46
+            }
+          },
+          "type": "Function_Called"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1888fb4ca2391fe3c7eb6725137dabd3",
+      "triggers.bts": "fa9687275e4a562c36903c7542cf9a58"
+    },
+    "VERSION": "0.23"
+  }
+}

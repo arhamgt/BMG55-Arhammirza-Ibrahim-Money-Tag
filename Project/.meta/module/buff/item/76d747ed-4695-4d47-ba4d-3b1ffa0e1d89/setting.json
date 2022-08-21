@@ -1,0 +1,22 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Red Spinning Light Wave Effect/gfxy207_rotating light strip_red_3d.effect"
+      }
+    },
+    "moveSpeed": 3,
+    "name": {
+      "value": "buff_76d747ed-4695-4d47-ba4d-3b1ffa0e1d89"
+    },
+    "sound": {
+      "selfOnly": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "db062151c6635bb7d695c53623b89344"
+    },
+    "VERSION": "0.23"
+  }
+}

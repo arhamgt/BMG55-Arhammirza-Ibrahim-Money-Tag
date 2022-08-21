@@ -1,0 +1,31 @@
+ENTITY_ENTER {
+	$obj1.Duit = 10000
+	ExecFunction(func_name = "UpdateMoneyText", player = $obj1)
+}
+
+ENTITY_DAMAGE {
+	ExecFunction(func_name = "TakeMoney", money = 100, thief = $obj2, victim = $obj1)
+}
+
+When_Entitiy_Get_Buffed {
+	StartTimer2(
+		interval = 20,
+		object = GetCustomTriggerParams(key = "player"),
+		time = GetCustomTriggerParams(key = "buff_duration"),
+		timer = ""
+	) {
+		CreatePartByPartStorage(
+			id = "8766760408078565377",
+			map = "map001",
+			pos = ComputeV3(
+			op = "add",
+			p1 = GetEntityPosition(entity = GetCustomTriggerParams(key = "player")),
+			p2 = {
+				x = 0,
+				y = 1,
+				z = 0
+			}
+		)
+		)
+	}
+}

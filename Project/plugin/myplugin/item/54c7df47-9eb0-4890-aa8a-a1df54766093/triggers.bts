@@ -1,0 +1,12 @@
+DROPITEM_PICKED {
+	ConsumeItem2(entity = $obj1, item = "myplugin/54c7df47-9eb0-4890-aa8a-a1df54766093", num = 1, reason = "")
+	AddEntityBuff(buffTime = 100, cfg = "myplugin/070f7816-d3ac-4df9-8c79-4e9960dd88f1", entity = $obj1)
+	StartTimer2(interval = 20, object = $obj1, time = 5, timer = "stop_rage") {
+				If ($obj1.Has_Attack) {
+			StopTimer2(timer = "stop_rage")
+		} ElseIf (true) {
+			$obj1.IsRaging = true
+		}
+	}
+	$obj1.IsRaging = false
+}

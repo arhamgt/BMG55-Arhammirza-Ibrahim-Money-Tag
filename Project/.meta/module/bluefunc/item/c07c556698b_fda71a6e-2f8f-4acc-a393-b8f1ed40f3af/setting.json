@@ -1,0 +1,480 @@
+{
+  "data": {
+    "name": {
+      "value": "StealAndStealed"
+    },
+    "params": [
+      {
+        "param_name": "steal_player",
+        "param_type": "T_Entity"
+      },
+      {
+        "param_name": "stealed_player",
+        "param_type": "T_Entity"
+      },
+      {
+        "param_name": "money_value"
+      }
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Duit"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "c4bf8b5f-7790-4d74-8f98-1176fd3c918e"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "da9afda5-e7c5-4733-973a-2629350cfe17"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9ae713f0-bec2-44f4-ae48-95f78a12daa5"
+              },
+              "pos": {
+                "x": 428,
+                "y": 104
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeInt",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "39bb4bb5-f4f1-4b17-bf82-43ecfc82c4ac"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperCompute",
+                        "rawval": "-"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "f6638c37-0f68-418c-bba9-4b4dd732c3e9"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c4bf8b5f-7790-4d74-8f98-1176fd3c918e"
+              },
+              "pos": {
+                "x": 831,
+                "y": 112
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Duit"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "20586b00-c696-4b69-9fd5-62b143f4c9c2"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "39bb4bb5-f4f1-4b17-bf82-43ecfc82c4ac"
+              },
+              "pos": {
+                "x": 1182,
+                "y": 115
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Duit"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "a5f7a367-ed34-4ea8-b82e-4c5ab083f0f0"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "247db616-60d7-458e-8ecd-e1ae0eb2d861"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ed23f13c-6861-4486-bde6-34d1d1221b97"
+              },
+              "pos": {
+                "x": 419,
+                "y": 436
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeInt",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "c5eaea32-be48-4dce-8134-6dd401fa8e9e"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperCompute"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "36c559d8-dc8f-422f-8d65-96fb8394f31b"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a5f7a367-ed34-4ea8-b82e-4c5ab083f0f0"
+              },
+              "pos": {
+                "x": 793,
+                "y": 436
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "money_value"
+                }
+              ],
+              "function_name": "StealAndStealed",
+              "id": {
+                "value": "36c559d8-dc8f-422f-8d65-96fb8394f31b"
+              },
+              "pos": {
+                "x": 1145,
+                "y": 644
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Duit"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f7553325-6b29-4d6e-83d0-8024641c26f0"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c5eaea32-be48-4dce-8134-6dd401fa8e9e"
+              },
+              "pos": {
+                "x": 1139,
+                "y": 441
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "steal_player"
+                }
+              ],
+              "function_name": "StealAndStealed",
+              "id": {
+                "value": "f7553325-6b29-4d6e-83d0-8024641c26f0"
+              },
+              "pos": {
+                "x": 1496,
+                "y": 461
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "stealed_player"
+                }
+              ],
+              "function_name": "StealAndStealed",
+              "id": {
+                "value": "20586b00-c696-4b69-9fd5-62b143f4c9c2"
+              },
+              "pos": {
+                "x": 1536,
+                "y": 135
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "stealed_player"
+                }
+              ],
+              "function_name": "StealAndStealed",
+              "id": {
+                "value": "da9afda5-e7c5-4733-973a-2629350cfe17"
+              },
+              "pos": {
+                "x": 830,
+                "y": 286
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "steal_player"
+                }
+              ],
+              "function_name": "StealAndStealed",
+              "id": {
+                "value": "247db616-60d7-458e-8ecd-e1ae0eb2d861"
+              },
+              "pos": {
+                "x": 780,
+                "y": 613
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Function",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "UpdateMoneyText"
+                      }
+                    },
+                    {
+                      "key": "player",
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "2b61f689-2cf7-4bca-94b7-366f05038544"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "func_declare_id": "c07b82c93c7_486d976c-ef32-465b-ba68-eb387cae8406",
+              "func_name": "UpdateMoneyText",
+              "id": {
+                "value": "735f197f-56f1-4496-bcba-c6ea2e85f04e"
+              },
+              "pos": {
+                "x": 401,
+                "y": 746
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "steal_player"
+                }
+              ],
+              "function_name": "StealAndStealed",
+              "id": {
+                "value": "2b61f689-2cf7-4bca-94b7-366f05038544"
+              },
+              "pos": {
+                "x": 740,
+                "y": 737
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Function",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "UpdateMoneyText"
+                      }
+                    },
+                    {
+                      "key": "player",
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "91c77620-4c4a-48d9-8624-956d51fa3e7a"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "func_declare_id": "c07b82c93c7_486d976c-ef32-465b-ba68-eb387cae8406",
+              "func_name": "UpdateMoneyText",
+              "id": {
+                "value": "582c9d80-bf0c-4f8a-a779-ca1e52ba1243"
+              },
+              "pos": {
+                "x": 397,
+                "y": 882
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "stealed_player"
+                }
+              ],
+              "function_name": "StealAndStealed",
+              "id": {
+                "value": "91c77620-4c4a-48d9-8624-956d51fa3e7a"
+              },
+              "pos": {
+                "x": 731,
+                "y": 876
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "money_value"
+                }
+              ],
+              "function_name": "StealAndStealed",
+              "id": {
+                "value": "f6638c37-0f68-418c-bba9-4b4dd732c3e9"
+              },
+              "pos": {
+                "x": 1185,
+                "y": 265
+              },
+              "type": "T_Int"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "1b5341bc-0ea7-4b31-ad88-7bb980a08783"
+            },
+            "type": "Function_Called"
+          },
+          "func_name": "StealAndStealed",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "9ae713f0-bec2-44f4-ae48-95f78a12daa5"
+                  },
+                  {
+                    "action": "ed23f13c-6861-4486-bde6-34d1d1221b97"
+                  },
+                  {
+                    "action": "735f197f-56f1-4496-bcba-c6ea2e85f04e"
+                  },
+                  {
+                    "action": "582c9d80-bf0c-4f8a-a779-ca1e52ba1243"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "9ac86299-ee49-4d97-a33d-29c67b041fe3"
+            },
+            "pos": {
+              "x": 43,
+              "y": 130
+            }
+          },
+          "type": "Function_Called"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c0c732877017f0fb391e7eb176e308b4",
+      "triggers.bts": "4d28f3b94420a66d8915e821d96d6393"
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,835 @@
+{
+  "data": {
+    "name": {
+      "value": "TakeMoney"
+    },
+    "params": [
+      {
+        "param_name": "thief",
+        "param_type": "T_Entity"
+      },
+      {
+        "param_name": "victim",
+        "param_type": "T_Entity"
+      },
+      {
+        "param_name": "money"
+      }
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityHp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b21714f1-7e4d-48b5-b06f-aab2d71f0c46"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0caeee10-2b42-4101-9606-8275ef960282"
+              },
+              "pos": {
+                "x": 281,
+                "y": 21
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "victim"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "b21714f1-7e4d-48b5-b06f-aab2d71f0c46"
+              },
+              "pos": {
+                "x": 708.4665
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_If",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Condition",
+                  "children": [
+                    {
+                      "action": "a066b714-225b-464e-bd66-de65b4cfa18e"
+                    },
+                    {
+                      "action": "8db1df15-dff9-4c6d-b443-2f9cde93e8af"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d947ae51-db01-4a1f-8521-27c9aeaac7a9"
+              },
+              "pos": {
+                "x": 280.14525,
+                "y": 166.698
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "1a9e7808-63c7-4e8e-97f0-0bb36d964494"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "b578a15a-7d86-421f-9946-6ec168e488dc"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a066b714-225b-464e-bd66-de65b4cfa18e"
+              },
+              "pos": {
+                "x": 502.40925,
+                "y": 174.801375
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeString",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "action": "b1f24d3f-ef2a-4e7f-820a-6eb57de6236a"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "0"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1a9e7808-63c7-4e8e-97f0-0bb36d964494"
+              },
+              "pos": {
+                "x": 735.091875,
+                "y": 156.279375
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ToString",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "action": "704caaf3-578b-4332-b237-6aaff1b20350"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b1f24d3f-ef2a-4e7f-820a-6eb57de6236a"
+              },
+              "pos": {
+                "x": 1039.54725,
+                "y": 155.12175
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Duit"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f8c98a72-8bdd-4121-bf09-7f100ddeb80c"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "704caaf3-578b-4332-b237-6aaff1b20350"
+              },
+              "pos": {
+                "x": 1361.367,
+                "y": 140.072625
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "victim"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "f8c98a72-8bdd-4121-bf09-7f100ddeb80c"
+              },
+              "pos": {
+                "x": 1726.018875,
+                "y": 158.594625
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "9ec0052c-cb54-4aa2-ac47-3031cec30301"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "d95a85d8-fc1b-4eea-aa1f-c9e4966c9901"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 60
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b578a15a-7d86-421f-9946-6ec168e488dc"
+              },
+              "pos": {
+                "x": 737.407125,
+                "y": 311.401125
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "thief"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "9ec0052c-cb54-4aa2-ac47-3031cec30301"
+              },
+              "pos": {
+                "x": 1148.364,
+                "y": 294.03675
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "fa26b6d7-c66d-47e6-90ba-87d434c64598"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "8db1df15-dff9-4c6d-b443-2f9cde93e8af"
+              },
+              "pos": {
+                "x": 500.094,
+                "y": 523.2465
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_If",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Condition",
+                  "children": [
+                    {
+                      "action": "5e055e2b-5689-4a7a-ae78-3010112850fc"
+                    },
+                    {
+                      "action": "f79d71bd-5452-4934-8327-3821191eb838"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "fa26b6d7-c66d-47e6-90ba-87d434c64598"
+              },
+              "pos": {
+                "x": 729.30375,
+                "y": 526.719375
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "45e49e96-b388-4cdc-bc06-bb1e1778a6ab"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "c2196abe-5cc6-474e-894b-d4f9ba7e21b5"
+                    },
+                    {
+                      "action": "81ac4616-85d9-407a-bcc6-d7cc0ae074cc"
+                    },
+                    {
+                      "action": "0156c51c-4349-4b67-a90d-0cb1f749dc02"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "5e055e2b-5689-4a7a-ae78-3010112850fc"
+              },
+              "pos": {
+                "x": 929.572875,
+                "y": 534.82275
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "IsRaging"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "43387df4-9863-4582-b2af-25447caafd95"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "45e49e96-b388-4cdc-bc06-bb1e1778a6ab"
+              },
+              "pos": {
+                "x": 1144.891125,
+                "y": 520.93125
+              },
+              "type": "T_Bool"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "thief"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "43387df4-9863-4582-b2af-25447caafd95"
+              },
+              "pos": {
+                "x": 1509.543,
+                "y": 540.610875
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Function",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "StealAndStealed"
+                      }
+                    },
+                    {
+                      "key": "steal_player",
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "2943b561-5c3e-4a81-bafa-508045910761"
+                      }
+                    },
+                    {
+                      "key": "stealed_player",
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c976ef98-a55b-46a3-ba8e-94833595eac4"
+                      }
+                    },
+                    {
+                      "key": "money_value",
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "76a93599-5aae-49b7-8491-d9951861f137"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "func_declare_id": "c07c556698b_fda71a6e-2f8f-4acc-a393-b8f1ed40f3af",
+              "func_name": "StealAndStealed",
+              "id": {
+                "value": "c2196abe-5cc6-474e-894b-d4f9ba7e21b5"
+              },
+              "pos": {
+                "x": 1142.575875,
+                "y": 698.047875
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "thief"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "2943b561-5c3e-4a81-bafa-508045910761"
+              },
+              "pos": {
+                "x": 1509.543,
+                "y": 661.003875
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "victim"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "c976ef98-a55b-46a3-ba8e-94833595eac4"
+              },
+              "pos": {
+                "x": 1750.329,
+                "y": 708.4665
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Duit"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "44fdbc9a-3f70-4b0a-813f-cf6ca8d7a846"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "76a93599-5aae-49b7-8491-d9951861f137"
+              },
+              "pos": {
+                "x": 1506.070125,
+                "y": 824.229
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "victim"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "44fdbc9a-3f70-4b0a-813f-cf6ca8d7a846"
+              },
+              "pos": {
+                "x": 1860.303375,
+                "y": 842.751
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "02f6ce4d-d4fb-4218-bc8e-ecece02177fa"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f79d71bd-5452-4934-8327-3821191eb838"
+              },
+              "pos": {
+                "x": 910.206427702604,
+                "y": 1304.00488158858
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Has_Attack"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": true
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "4474fcd6-2e80-420b-ba4f-9317f3c2853a"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "81ac4616-85d9-407a-bcc6-d7cc0ae074cc"
+              },
+              "pos": {
+                "x": 1143.7335,
+                "y": 957.355875
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Function",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "StealAndStealed"
+                      }
+                    },
+                    {
+                      "key": "steal_player",
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d75e62f4-a5da-4c3f-b38a-bdafd37be651"
+                      }
+                    },
+                    {
+                      "key": "stealed_player",
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "5ebc9155-b2c2-4934-a4a1-17b8d3fa416b"
+                      }
+                    },
+                    {
+                      "key": "money_value",
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "56a5cf9e-f6bd-4998-8f7a-b7a64726e191",
+                        "rawval": 100
+                      }
+                    }
+                  ]
+                }
+              ],
+              "func_declare_id": "c07c556698b_fda71a6e-2f8f-4acc-a393-b8f1ed40f3af",
+              "func_name": "StealAndStealed",
+              "id": {
+                "value": "02f6ce4d-d4fb-4218-bc8e-ecece02177fa"
+              },
+              "pos": {
+                "x": 1133.6280527026,
+                "y": 1314.42350658858
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "thief"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "d75e62f4-a5da-4c3f-b38a-bdafd37be651"
+              },
+              "pos": {
+                "x": 1508.6985527026,
+                "y": 1299.37438158858
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "victim"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "5ebc9155-b2c2-4934-a4a1-17b8d3fa416b"
+              },
+              "pos": {
+                "x": 1513.3290527026,
+                "y": 1423.24025658858
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "money"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "56a5cf9e-f6bd-4998-8f7a-b7a64726e191"
+              },
+              "pos": {
+                "x": 1513.2153883979,
+                "y": 1551.84160128618
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "thief"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "4474fcd6-2e80-420b-ba4f-9317f3c2853a"
+              },
+              "pos": {
+                "x": 1519.66845646876,
+                "y": 1015.92650515778
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_RemoveBuffByFullName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "765c1c13-24cb-41b9-a392-b9046be6175d"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/070f7816-d3ac-4df9-8c79-4e9960dd88f1"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0156c51c-4349-4b67-a90d-0cb1f749dc02"
+              },
+              "pos": {
+                "x": 1140.79635186355,
+                "y": 1132.96567314735
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "thief"
+                }
+              ],
+              "function_name": "TakeMoney",
+              "id": {
+                "value": "765c1c13-24cb-41b9-a392-b9046be6175d"
+              },
+              "pos": {
+                "x": 1519.245,
+                "y": 1142.19
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "12bfeabc-ed38-4bd1-a204-b5b21aa2a8db"
+            },
+            "type": "Function_Called"
+          },
+          "func_name": "TakeMoney",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "0caeee10-2b42-4101-9606-8275ef960282"
+                  },
+                  {
+                    "action": "d947ae51-db01-4a1f-8521-27c9aeaac7a9"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "dba77a4a-0dc6-4715-8779-72bbeabe864c"
+            },
+            "pos": {
+              "x": 42,
+              "y": 32
+            }
+          },
+          "type": "Function_Called"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6b5389d89e4acedd5b392563b4404d0b",
+      "triggers.bts": "e954593287dc46828490b0de93d8779b"
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,33 @@
+TakeMoney {
+	AddEntityHp(entity = GetFuncsParamsVar(key = "victim"), step = 1)
+		If (ToString(GetFuncsParamsVar(key = "victim").Duit) == "0") {
+		ShowTip(
+			entity = GetFuncsParamsVar(key = "thief"),
+			keepTime = 60,
+			textKey = "d95a85d8-fc1b-4eea-aa1f-c9e4966c9901",
+			tipType = "1"
+		)
+	} ElseIf (true) {
+				If (GetFuncsParamsVar(key = "thief").IsRaging) {
+			ExecFunction(
+				func_name = "StealAndStealed",
+				money_value = GetFuncsParamsVar(key = "victim").Duit,
+				steal_player = GetFuncsParamsVar(key = "thief"),
+				stealed_player = GetFuncsParamsVar(key = "victim")
+			)
+			GetFuncsParamsVar(key = "thief").Has_Attack = true
+			RemoveBuffByFullName(
+				buff = "myplugin/070f7816-d3ac-4df9-8c79-4e9960dd88f1",
+				entity = GetFuncsParamsVar(key = "thief"),
+				toTeam = false
+			)
+		} ElseIf (true) {
+			ExecFunction(
+				func_name = "StealAndStealed",
+				money_value = GetFuncsParamsVar(key = "money"),
+				steal_player = GetFuncsParamsVar(key = "thief"),
+				stealed_player = GetFuncsParamsVar(key = "victim")
+			)
+		}
+	}
+}

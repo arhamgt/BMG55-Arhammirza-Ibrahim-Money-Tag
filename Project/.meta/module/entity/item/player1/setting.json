@@ -1,0 +1,565 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/Boys In Black Hat And White Clothes/npc_70201.actor"
+      },
+      "girlactor": {
+        "asset": "asset/Actor/Yellow Hair Girl/npc_20106.actor"
+      }
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 1.7,
+      "memory": {
+        "Capsule": "1.700000-0.430000"
+      },
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "canRevive": true,
+    "damage": 1,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "isPlayer": true,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "skill": [
+      "myplugin/561c1b99-c0bb-4dd2-9fff-319408acfb6e"
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "e8fc6af9-9567-4624-a7e6-7473a50a6f48"
+              },
+              "pos": {
+                "x": 1470,
+                "y": 361
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Duit"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10000
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "2ca6fa16-2582-415e-bbdd-efdea25d7fd9"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bc313318-a2a1-4e6f-9651-bd91d8f30f41"
+              },
+              "pos": {
+                "x": 379
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "2ca6fa16-2582-415e-bbdd-efdea25d7fd9"
+              },
+              "pos": {
+                "x": 727,
+                "y": 55
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Function",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "UpdateMoneyText"
+                      }
+                    },
+                    {
+                      "key": "player",
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d52fdcf3-6219-4c5f-8b9f-dda70a36a230"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "func_declare_id": "c07b82c93c7_486d976c-ef32-465b-ba68-eb387cae8406",
+              "func_name": "UpdateMoneyText",
+              "id": {
+                "value": "e34c5c59-80d5-4057-b9e0-e648ae1e9b1f"
+              },
+              "pos": {
+                "x": 381,
+                "y": 183
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "d52fdcf3-6219-4c5f-8b9f-dda70a36a230"
+              },
+              "pos": {
+                "x": 719,
+                "y": 261
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "6f391aae-d9d4-4ad7-94fd-d628d305c3a4"
+            },
+            "type": "Trigger_EntityEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "bc313318-a2a1-4e6f-9651-bd91d8f30f41"
+                  },
+                  {
+                    "action": "e34c5c59-80d5-4057-b9e0-e648ae1e9b1f"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "bedaeed0-1261-4541-9000-76aa56abcab8"
+            },
+            "pos": {
+              "x": 45,
+              "y": 27
+            }
+          },
+          "type": "Trigger_EntityEnter"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Function",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "TakeMoney"
+                      }
+                    },
+                    {
+                      "key": "thief",
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c7f8a8b1-31aa-44c5-9fb1-3d4bfa39426e"
+                      }
+                    },
+                    {
+                      "key": "victim",
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "62b48af4-3724-42f5-b704-2ae8079facf8"
+                      }
+                    },
+                    {
+                      "key": "money",
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 100
+                      }
+                    }
+                  ]
+                }
+              ],
+              "func_declare_id": "c08418cc905_78503770-7fa9-4413-b082-0fa509614eec",
+              "func_name": "TakeMoney",
+              "id": {
+                "value": "210451c6-bcb0-4d77-b26c-4ae2ae12f104"
+              },
+              "pos": {
+                "x": 303.828808613537,
+                "y": 61.5473098559171
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "62b48af4-3724-42f5-b704-2ae8079facf8"
+              },
+              "pos": {
+                "x": 619.769197676547,
+                "y": 151.220550128415
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "c7f8a8b1-31aa-44c5-9fb1-3d4bfa39426e"
+              },
+              "pos": {
+                "x": 618.985671510085,
+                "y": 31.3410466587334
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "98c103d7-7375-47b4-9390-2c0fbf40ff58"
+            },
+            "type": "Trigger_EntityDamage"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "210451c6-bcb0-4d77-b26c-4ae2ae12f104"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "b5580ebe-016a-4ac8-8f9b-626c81a4da56"
+            },
+            "pos": {
+              "x": 35.6590894524754,
+              "y": 93.5055145320094
+            }
+          },
+          "type": "Trigger_EntityDamage"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 20
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "36929465-626a-4f83-b0ff-5615dcd22987",
+                        "rawval": 5
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d4ef2d2e-408d-4f65-b356-d13f01c43591"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "e7040956-59d8-4e1e-a3a3-4ceccd50650f"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "3ff3f81e-f175-4896-b49a-608fa7b96607"
+              },
+              "pos": {
+                "x": 360,
+                "y": 61
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetCustomTriggerParams",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "player"
+                }
+              ],
+              "id": {
+                "value": "d4ef2d2e-408d-4f65-b356-d13f01c43591"
+              },
+              "pos": {
+                "x": 760,
+                "y": 159
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_CreatePartByPartStorage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_StorageEntry",
+                        "rawval": {
+                          "id": "8766760408078565377",
+                          "name": "Trap"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "map001"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "action": "f79fb37d-ba23-412e-a354-0790e5ecaf46"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e7040956-59d8-4e1e-a3a3-4ceccd50650f"
+              },
+              "pos": {
+                "x": 756,
+                "y": 287
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "200d5aa5-1a35-49c3-a023-b6b9d32b7bcf"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "3d97cd80-1a81-49d4-9211-7dcea798dc21"
+              },
+              "pos": {
+                "x": 1273,
+                "y": 363
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetCustomTriggerParams",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "player"
+                }
+              ],
+              "id": {
+                "value": "200d5aa5-1a35-49c3-a023-b6b9d32b7bcf"
+              },
+              "pos": {
+                "x": 1571,
+                "y": 356
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetCustomTriggerParams",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "buff_duration"
+                }
+              ],
+              "id": {
+                "value": "36929465-626a-4f83-b0ff-5615dcd22987"
+              },
+              "pos": {
+                "x": 763,
+                "y": 40
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeV3",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Vector3",
+                        "action": "3d97cd80-1a81-49d4-9211-7dcea798dc21"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Compute"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Vector3",
+                        "rawval": {
+                          "y": 1
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f79fb37d-ba23-412e-a354-0790e5ecaf46"
+              },
+              "pos": {
+                "x": 1234,
+                "y": 479
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "When_Entitiy_Get_Buffed"
+            },
+            "params": [
+              {
+                "param_name": "player",
+                "param_type": "T_Entity"
+              },
+              {
+                "param_name": "buff_duration"
+              }
+            ],
+            "register_id": "5082e814-32ed-4b8e-978f-7493b568c346",
+            "type": "Trigger_Custom"
+          },
+          "custom_trigger_name": "When_Entitiy_Get_Buffed",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "3ff3f81e-f175-4896-b49a-608fa7b96607"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "5082e814-32ed-4b8e-978f-7493b568c346"
+            },
+            "pos": {
+              "x": 40,
+              "y": 44
+            }
+          },
+          "type": "Trigger_Custom"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f89004623ec352a08d1416a5d110d2da",
+      "triggers.bts": "f4a2bf7b8ecbe30976add5b1e8a2511b"
+    },
+    "VERSION": "0.23"
+  }
+}
