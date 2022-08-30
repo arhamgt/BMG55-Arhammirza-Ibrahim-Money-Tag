@@ -33,7 +33,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Int",
-                        "rawval": 1
+                        "rawval": -1
                       }
                     },
                     {
@@ -116,7 +116,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_ObjectVar",
-                        "rawval": "Duit"
+                        "rawval": "Uang"
                       }
                     },
                     {
@@ -207,7 +207,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "1888fb4ca2391fe3c7eb6725137dabd3",
-      "triggers.bts": "fa9687275e4a562c36903c7542cf9a58"
+      "triggers.bts": "8f455e9f1a8ae4b526d2900366105a03"
     },
     "VERSION": "0.23"
   }

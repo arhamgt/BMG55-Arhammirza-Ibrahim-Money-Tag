@@ -1,0 +1,215 @@
+{
+  "data": {
+    "name": {
+      "value": "UpdateText"
+    },
+    "params": [
+      {
+        "param_name": "player",
+        "param_type": "T_Entity"
+      }
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetHeadText",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "e4427033-6eae-4ff6-bcbc-395ceaa118d1"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": -1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "action": "8ba3be91-fc9c-484f-ab69-99c87fbcd45c",
+                        "rawval": {
+                          "value": "55b610c6-6325-4534-a9e5-8f10806ddf22"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "061e4d57-9dd2-4d3b-80ba-1e7020fcb3d4"
+              },
+              "pos": {
+                "x": 312,
+                "y": 2
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "UpdateText",
+              "id": {
+                "value": "e4427033-6eae-4ff6-bcbc-395ceaa118d1"
+              },
+              "pos": {
+                "x": 679
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Concat",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "Duit Gw: "
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "action": "411725f2-6460-43b4-9ed2-80cc21ca4e06"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "8ba3be91-fc9c-484f-ab69-99c87fbcd45c"
+              },
+              "pos": {
+                "x": 683,
+                "y": 156
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ToString",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "action": "9b738403-2e8d-4740-a5d4-875054b77c23"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "411725f2-6460-43b4-9ed2-80cc21ca4e06"
+              },
+              "pos": {
+                "x": 961,
+                "y": 276
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Money"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "739e776c-8752-4415-853b-80d3409fb251"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9b738403-2e8d-4740-a5d4-875054b77c23"
+              },
+              "pos": {
+                "x": 1240,
+                "y": 269
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "UpdateText",
+              "id": {
+                "value": "739e776c-8752-4415-853b-80d3409fb251"
+              },
+              "pos": {
+                "x": 1599,
+                "y": 324
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "5670f678-961b-419f-b6b6-9084f2dc057c"
+            },
+            "type": "Function_Called"
+          },
+          "func_name": "UpdateText",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "061e4d57-9dd2-4d3b-80ba-1e7020fcb3d4"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d255be9f-757c-4530-8d99-e5f80a1680a9"
+            },
+            "pos": {
+              "x": 48,
+              "y": 50
+            }
+          },
+          "type": "Function_Called"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a1506b0465d8a550c36e91994585ea8a",
+      "triggers.bts": "727e8445ffc475121e1f6ac71359b1a4"
+    },
+    "VERSION": "0.23"
+  }
+}

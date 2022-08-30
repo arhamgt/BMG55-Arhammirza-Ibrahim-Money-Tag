@@ -1,6 +1,11 @@
 {
   "data": {
+    "bagCap": 3,
     "canJoinMidway": false,
+    "defaultView": "Back",
+    "firstPerson_enable": {
+      "enable": false
+    },
     "fixed_viewPos": {
       "pos": {
         "__OBJ_TYPE": "Vector3i"
@@ -9,9 +14,11 @@
     "initPos": {
       "map": "map001",
       "pos": {
-        "y": 36
+        "y": -0.459990940093994,
+        "z": 30
       }
     },
+    "needSave": true,
     "nowTime": {
       "h": 7,
       "m": 40
@@ -23,26 +30,36 @@
     "startPos": {
       "map": "map001",
       "pos": {
-        "x": 0,
-        "y": 1,
-        "z": 0
+        "x": 1.77364110946655,
+        "y": 0.0770111465454102,
+        "z": 1.2296621799469
       }
     },
-    "unlimitedPlayTime": true,
     "vars": {
       "entity": [
         {
-          "key": "Duit"
+          "key": "Money",
+          "save": true
         },
         {
-          "key": "IsRaging",
+          "key": "Is_Raging",
+          "save": true,
           "type": "bool",
           "value": {
             "__OBJ_TYPE": "T_Bool"
           }
         },
         {
-          "key": "Has_Attack",
+          "key": "IsDoneAttack",
+          "save": true,
+          "type": "bool",
+          "value": {
+            "__OBJ_TYPE": "T_Bool"
+          }
+        },
+        {
+          "key": "HasStart",
+          "save": true,
           "type": "bool",
           "value": {
             "__OBJ_TYPE": "T_Bool"
@@ -51,15 +68,15 @@
       ]
     },
     "waitGoTime": {
-      "value": 20
+      "value": 60
     },
     "waitStartTime": {
-      "value": 20
+      "value": 60
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "5487ce193d4ada76b1437efae9b31bcb",
+      "setting.json": "a65f7ed5e2f699737b46f3e9032b0a29",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""

@@ -1,15 +1,15 @@
 {
   "automatch": false,
-  "bagCap": 9,
+  "bagCap": 3,
   "batchType": "Dynamic",
   "cameraCfg": {
     "canSwitchView": true,
     "defaultPitch": 0,
-    "defaultView": 0,
+    "defaultView": 1,
     "defaultYaw": 0,
     "viewModeConfig": [
       {
-        "enable": true,
+        "enable": false,
         "lockSlideScreen": false,
         "viewFovAngle": 75
       },
@@ -96,8 +96,8 @@
   "initPos": {
     "map": "map001",
     "x": 0,
-    "y": 36,
-    "z": 0
+    "y": -0.459990940093994,
+    "z": 30
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -133,7 +133,7 @@
   "moveStateConfig": {
     "isShow": false
   },
-  "needSave": false,
+  "needSave": true,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
   "nowTime": 1666.66666666667,
@@ -151,7 +151,7 @@
   },
   "personalShop": false,
   "playerCfg": "myplugin/player1",
-  "playTime": -1,
+  "playTime": 1200,
   "qualityLevelData": {
     "maxLevel": [
       2,
@@ -235,9 +235,9 @@
   "startPos": [
     {
       "map": "map001",
-      "x": 0,
-      "y": 1,
-      "z": 0
+      "x": 1.77364110946655,
+      "y": 0.0770111465454102,
+      "z": 1.2296621799469
     }
   ],
   "team": [],
@@ -291,27 +291,32 @@
     "__OBJ_TYPE": [],
     "entity": [
       {
-        "key": "Duit",
+        "key": "Money",
         "run_type": "server",
-        "save": false,
+        "save": true,
         "value": 0
       },
       {
-        "key": "IsRaging",
+        "key": "Is_Raging",
         "run_type": "server",
-        "save": false
+        "save": true
       },
       {
-        "key": "Has_Attack",
+        "key": "IsDoneAttack",
         "run_type": "server",
-        "save": false
+        "save": true
+      },
+      {
+        "key": "HasStart",
+        "run_type": "server",
+        "save": true
       }
     ],
     "global": [],
     "ui": []
   },
   "waitAtInitPos": true,
-  "waitGoTime": 20,
+  "waitGoTime": 60,
   "waitPlayerTime": 0,
-  "waitStartTime": 20
+  "waitStartTime": 60
 }

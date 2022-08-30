@@ -1,0 +1,8 @@
+UpdateMoneyText_1 {
+	SetHeadText(
+		entity = GetFuncsParamsVar(key = "player"),
+		headText = Concat(p1 = "Duit : ", p2 = ToString(GetFuncsParamsVar(key = "player").Money)),
+		x = 0,
+		y = -1
+	)
+}

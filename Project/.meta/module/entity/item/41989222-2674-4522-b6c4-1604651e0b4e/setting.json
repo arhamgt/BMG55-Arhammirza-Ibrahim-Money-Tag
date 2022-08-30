@@ -1,0 +1,19 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/actor/Black And White Checkered Flag/Flag At The Start.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_41989222-2674-4522-b6c4-1604651e0b4e"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e33ef9a2a14753dc70caf75ab943deca",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

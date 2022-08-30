@@ -1,0 +1,6 @@
+StealAndStealed_1 {
+	GetFuncsParamsVar(key = "stealed_player").Money = GetFuncsParamsVar(key = "stealed_player").Money - GetFuncsParamsVar(key = "money_value")
+	GetFuncsParamsVar(key = "steal_player").Money = GetFuncsParamsVar(key = "steal_player").Money + GetFuncsParamsVar(key = "money_value")
+	ExecFunction(func_name = "UpdateMoneyText_1", player = GetFuncsParamsVar(key = "steal_player"))
+	ExecFunction(func_name = "UpdateMoneyText_1", player = GetFuncsParamsVar(key = "stealed_player"))
+}

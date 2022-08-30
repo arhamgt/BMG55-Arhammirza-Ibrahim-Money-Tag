@@ -1,0 +1,11 @@
+PART_CREATED {
+	StartTimer2(interval = 200, time = 20, timer = "") {
+		SpawnItemToWorld(
+			count = 1,
+			fullName = "myplugin/54c7df47-9eb0-4890-aa8a-a1df54766093",
+			map = GetStaticMap(create = true, name = "map001"),
+			pos = ComputeV3(op = "add", p1 = GetPartPosition(part = $part), p2 = { x = 0, y = 1, z = 0 }),
+			time = 1220
+		)
+	}
+}
