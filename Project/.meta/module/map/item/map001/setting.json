@@ -52,6 +52,137 @@
         }
       },
       {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/41989222-2674-4522-b6c4-1604651e0b4e",
+            "id": "8770762446411366401",
+            "name": "Flag",
+            "position": {
+              "x": -9.7593936920166,
+              "y": -0.135000005364418,
+              "z": -16.7449989318848
+            },
+            "scale": {
+              "x": 0.400997,
+              "y": 0.400997,
+              "z": 0.400995
+            },
+            "size": {
+              "x": 0.400996595621109,
+              "y": 0.400996595621109,
+              "z": 0.400994896888733
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/41989222-2674-4522-b6c4-1604651e0b4e",
+            "id": "8770765156938596353",
+            "name": "Flag",
+            "position": {
+              "x": -9.7593936920166,
+              "y": -0.135000005364418,
+              "z": 12.7429981231689
+            },
+            "scale": {
+              "x": 0.400997,
+              "y": 0.400997,
+              "z": 0.400995
+            },
+            "size": {
+              "x": 0.400996595621109,
+              "y": 0.400996595621109,
+              "z": 0.400994896888733
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/41989222-2674-4522-b6c4-1604651e0b4e",
+            "id": "8770765673707782145",
+            "name": "Flag",
+            "position": {
+              "x": 9.74460697174072,
+              "y": -0.135000005364418,
+              "z": -16.7449989318848
+            },
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 0.400997,
+              "y": 0.400997,
+              "z": 0.400995
+            },
+            "size": {
+              "x": 0.400996595621109,
+              "y": 0.400996595621109,
+              "z": 0.400994896888733
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/41989222-2674-4522-b6c4-1604651e0b4e",
+            "id": "8770765673710174209",
+            "name": "Flag",
+            "position": {
+              "x": 9.74460697174072,
+              "y": -0.135000005364418,
+              "z": 12.7429981231689
+            },
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 0.400997,
+              "y": 0.400997,
+              "z": 0.400995
+            },
+            "size": {
+              "x": 0.400996595621109,
+              "y": 0.400996595621109,
+              "z": 0.400994896888733
+            }
+          }
+        ],
+        "id": "8783909695486148609",
+        "name": "Decoration"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "batchType": "Dynamic",
+            "config": "myplugin/player1",
+            "id": "8762142972235628545",
+            "name": "Player",
+            "position": {
+              "x": 0.499005019664764,
+              "y": 0.439000010490417,
+              "z": 10.0980024337769
+            },
+            "rotation": {
+              "y": 180
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "batchType": "Dynamic",
+            "config": "myplugin/player1",
+            "id": "8780998424647925761",
+            "name": "Player",
+            "position": {
+              "x": 0.369004011154175,
+              "y": 0.439000010490417,
+              "z": -14.1110048294067
+            }
+          }
+        ],
+        "id": "8770112870190661633",
+        "name": "Players"
+      },
+      {
         "__OBJ_TYPE": "Instance_Model",
         "batchType": "Dynamic",
         "children": [
@@ -63,8 +194,8 @@
             "friction": 0.35,
             "id": "8762135808627458049",
             "massCenter": {
-              "y": -1,
-              "z": 5
+              "y": -0.999999940395355,
+              "z": 4.95100021362305
             },
             "material": {
               "alpha": 0.994,
@@ -77,8 +208,8 @@
             },
             "name": "Base",
             "position": {
-              "y": -1,
-              "z": 5
+              "y": -0.999999940395355,
+              "z": 4.95100021362305
             },
             "restitution": 0.1,
             "scale": {
@@ -162,8 +293,8 @@
             "friction": 0.6,
             "id": "8768714686568824833",
             "massCenter": {
-              "y": 6.99999904632568,
-              "z": 19.9999961853027
+              "y": 6.99999856948853,
+              "z": 19.9509963989258
             },
             "material": {
               "texture": "part_zhuankuai.tga"
@@ -171,8 +302,8 @@
             "mergeShapesDataKey": "8768714686460280833",
             "name": "Gate",
             "position": {
-              "y": 6.99999904632568,
-              "z": 19.9999961853027
+              "y": 6.99999856948853,
+              "z": 19.9509963989258
             },
             "restitution": 0.15,
             "scale": {
@@ -190,21 +321,58 @@
           {
             "__OBJ_TYPE": "Instance_Part",
             "batchType": "Dynamic",
+            "btsKey": "28c45ada-1242-4376-b46f-687176bec28b",
+            "density": 7.9,
+            "friction": 0.2,
+            "id": "8770081239134650369",
+            "massCenter": {
+              "y": 5.99999952316284,
+              "z": 19.9524974822998
+            },
+            "material": {
+              "alpha": 0.5,
+              "color": {
+                "b": 16,
+                "r": 32
+              },
+              "texture": "part_gangban.tga"
+            },
+            "name": "Gate",
+            "position": {
+              "y": 5.99999952316284,
+              "z": 19.9524974822998
+            },
+            "restitution": 0.06,
+            "scale": {
+              "x": 7.99996,
+              "y": 15,
+              "z": 0.293993
+            },
+            "size": {
+              "x": 7.99995803833008,
+              "y": 14.9999666213989,
+              "z": 0.29399311542511
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
             "btsKey": "5715a44e-2458-441e-9738-338c2c318562",
             "density": 2.5,
             "friction": 0.6,
             "id": "8769352832243400705",
             "massCenter": {
-              "y": 7,
-              "z": 34
+              "y": 6.99999952316284,
+              "z": 33.951000213623
             },
             "material": {
               "texture": "part_zhuankuai.tga"
             },
             "name": "Front",
             "position": {
-              "y": 7,
-              "z": 34
+              "y": 6.99999952316284,
+              "z": 33.951000213623
             },
             "restitution": 0.15,
             "scale": {
@@ -227,16 +395,16 @@
             "friction": 0.6,
             "id": "8762135808635682817",
             "massCenter": {
-              "y": 7,
-              "z": -24
+              "y": 6.99999952316284,
+              "z": -24.048999786377
             },
             "material": {
               "texture": "part_zhuankuai.tga"
             },
             "name": "Back",
             "position": {
-              "y": 7,
-              "z": -24
+              "y": 6.99999952316284,
+              "z": -24.048999786377
             },
             "restitution": 0.15,
             "scale": {
@@ -259,18 +427,18 @@
             "friction": 0.6,
             "id": "8762135808647806977",
             "massCenter": {
-              "x": 14,
-              "y": 7,
-              "z": 5
+              "x": 13.9999990463257,
+              "y": 6.99999952316284,
+              "z": 4.95100021362305
             },
             "material": {
               "texture": "part_zhuankuai.tga"
             },
             "name": "Left",
             "position": {
-              "x": 14,
-              "y": 7,
-              "z": 5
+              "x": 13.9999990463257,
+              "y": 6.99999952316284,
+              "z": 4.95100021362305
             },
             "restitution": 0.15,
             "scale": {
@@ -293,18 +461,18 @@
             "friction": 0.6,
             "id": "8762135808651493377",
             "massCenter": {
-              "x": -14,
-              "y": 7,
-              "z": 5
+              "x": -13.9999990463257,
+              "y": 6.99999952316284,
+              "z": 4.95100021362305
             },
             "material": {
               "texture": "part_zhuankuai.tga"
             },
             "name": "Right",
             "position": {
-              "x": -14,
-              "y": 7,
-              "z": 5
+              "x": -13.9999990463257,
+              "y": 6.99999952316284,
+              "z": 4.95100021362305
             },
             "restitution": 0.15,
             "scale": {
@@ -321,532 +489,10 @@
           }
         ],
         "id": "8762135808625442817",
-        "name": "Border"
-      },
-      {
-        "__OBJ_TYPE": "Instance_Model",
-        "children": [
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "batchType": "Dynamic",
-            "btsKey": "2e31db2b-c67e-4e6b-9339-48a93db99b6a",
-            "density": 3.63,
-            "friction": 0.2,
-            "id": "8763791208552693761",
-            "massCenter": {
-              "y": -0.248000010848045,
-              "z": 1
-            },
-            "material": {
-              "color": {
-                "g": 37,
-                "r": 33
-              },
-              "texture": "part_luanshi.tga"
-            },
-            "name": "Sprint",
-            "position": {
-              "y": -0.248000010848045,
-              "z": 1
-            },
-            "restitution": 0.17,
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "batchType": "Dynamic",
-            "btsKey": "1c274cff-2609-49d0-9082-0bdf38c91d03",
-            "density": 3.63,
-            "friction": 0.2,
-            "id": "8767880506464993281",
-            "massCenter": {
-              "y": -0.248000010848045,
-              "z": -5
-            },
-            "material": {
-              "color": {
-                "b": 58,
-                "g": 3
-              },
-              "texture": "part_luanshi.tga"
-            },
-            "name": "Rage",
-            "position": {
-              "y": -0.248000010848045,
-              "z": -5
-            },
-            "restitution": 0.17,
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "batchType": "Dynamic",
-            "btsKey": "f1681aaa-8e79-41cb-ba51-46d9ae53d9ef",
-            "density": 3.63,
-            "friction": 0.2,
-            "id": "8777965936051994625",
-            "massCenter": {
-              "x": 12,
-              "y": -0.622999906539917,
-              "z": 16
-            },
-            "material": {
-              "color": {
-                "g": 37,
-                "r": 33
-              },
-              "texture": "part_luanshi.tga"
-            },
-            "name": "Sprint",
-            "position": {
-              "x": 12,
-              "y": -0.622999906539917,
-              "z": 16
-            },
-            "restitution": 0.17,
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "batchType": "Dynamic",
-            "btsKey": "3d5779a8-81d4-4ce9-a3bd-c147a17454c6",
-            "density": 3.63,
-            "friction": 0.2,
-            "id": "8777967029364228097",
-            "massCenter": {
-              "x": -12,
-              "y": -0.622999906539917,
-              "z": -20
-            },
-            "material": {
-              "color": {
-                "g": 37,
-                "r": 33
-              },
-              "texture": "part_luanshi.tga"
-            },
-            "name": "Sprint",
-            "position": {
-              "x": -12,
-              "y": -0.622999906539917,
-              "z": -20
-            },
-            "restitution": 0.17,
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "batchType": "Dynamic",
-            "btsKey": "dac68965-37a1-49e1-801d-f1c2383494c9",
-            "density": 3.63,
-            "friction": 0.2,
-            "id": "8777968365939064833",
-            "massCenter": {
-              "x": -12,
-              "y": -0.628000020980835,
-              "z": 16
-            },
-            "material": {
-              "color": {
-                "b": 58,
-                "g": 3
-              },
-              "texture": "part_luanshi.tga"
-            },
-            "name": "Rage",
-            "position": {
-              "x": -12,
-              "y": -0.628000020980835,
-              "z": 16
-            },
-            "restitution": 0.17,
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "batchType": "Dynamic",
-            "btsKey": "9535a016-99f3-4acf-9293-f726530fe644",
-            "density": 3.63,
-            "friction": 0.2,
-            "id": "8777968998097125377",
-            "massCenter": {
-              "x": 12,
-              "y": -0.628000020980835,
-              "z": -20
-            },
-            "material": {
-              "color": {
-                "b": 58,
-                "g": 3
-              },
-              "texture": "part_luanshi.tga"
-            },
-            "name": "Rage",
-            "position": {
-              "x": 12,
-              "y": -0.628000020980835,
-              "z": -20
-            },
-            "restitution": 0.17,
-            "useAnchor": true
-          }
-        ],
-        "id": "8770113710647459841",
-        "name": "Spawner"
-      },
-      {
-        "__OBJ_TYPE": "Instance_Folder",
-        "children": [
-          {
-            "__OBJ_TYPE": "Instance_Entity",
-            "batchType": "Dynamic",
-            "config": "myplugin/player1",
-            "id": "8768716034175221761",
-            "name": "Player",
-            "position": {
-              "y": 1.40899968147278,
-              "z": -22.9039916992188
-            }
-          },
-          {
-            "__OBJ_TYPE": "Instance_Entity",
-            "batchType": "Dynamic",
-            "config": "myplugin/player1",
-            "id": "8769380938738106369",
-            "name": "Player",
-            "position": {
-              "x": 0.369004011154175,
-              "y": 0.439000010490417,
-              "z": -15.217999458313
-            }
-          },
-          {
-            "__OBJ_TYPE": "Instance_Entity",
-            "batchType": "Dynamic",
-            "config": "myplugin/player1",
-            "id": "8762142972235628545",
-            "name": "Player",
-            "position": {
-              "x": 0.499005019664764,
-              "y": 0.439000010490417,
-              "z": 10.0980024337769
-            },
-            "rotation": {
-              "y": 180
-            }
-          },
-          {
-            "__OBJ_TYPE": "Instance_Entity",
-            "batchType": "Dynamic",
-            "config": "myplugin/player1",
-            "id": "8777971477599109121",
-            "name": "Player",
-            "position": {
-              "x": -1.00899434089661,
-              "y": 3.11700010299683,
-              "z": 13.194993019104
-            },
-            "rotation": {
-              "y": 180
-            }
-          },
-          {
-            "__OBJ_TYPE": "Instance_Entity",
-            "batchType": "Dynamic",
-            "config": "myplugin/player1",
-            "id": "8780998424647925761",
-            "name": "Player",
-            "position": {
-              "x": 0.369004011154175,
-              "y": 0.439000010490417,
-              "z": -9.01800346374512
-            }
-          }
-        ],
-        "id": "8770112870190661633",
-        "name": "Players"
-      },
-      {
-        "__OBJ_TYPE": "Instance_PartOperation",
-        "batchType": "Dynamic",
-        "btsKey": "33e9d629-6346-4c56-9057-8f761eefb9d0",
-        "collisionUniqueKey": "8769424605747904513",
-        "componentList": [
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "batchType": "Dynamic",
-            "booleanOperation": 1,
-            "btsKey": "e4458daa-7a64-46ae-8c0c-f9c362b9c8f0",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8769429899766857729",
-            "massCenter": {
-              "x": -7.34860372543335,
-              "y": 0.22288966178894,
-              "z": -20
-            },
-            "position": {
-              "x": -7.34860372543335,
-              "y": 0.22288966178894,
-              "z": -20
-            },
-            "restitution": 0.3,
-            "rotation": {
-              "z": 45
-            },
-            "scale": {
-              "x": 3,
-              "y": 2,
-              "z": 2
-            },
-            "size": {
-              "x": 3,
-              "y": 2,
-              "z": 2
-            }
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "batchType": "Dynamic",
-            "btsKey": "24718bf4-f4c0-4905-a3d1-701fc9434314",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8769429899781324801",
-            "massCenter": {
-              "x": -8,
-              "y": 1,
-              "z": -20
-            },
-            "position": {
-              "x": -8,
-              "y": 1,
-              "z": -20
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 2,
-              "y": 2,
-              "z": 2
-            },
-            "size": {
-              "x": 2,
-              "y": 2,
-              "z": 2
-            }
-          }
-        ],
-        "density": 5.5,
-        "friction": 0.56,
-        "id": "8769429899748343809",
-        "lineVelocity": {
-          "x": 3,
-          "y": 3
-        },
-        "massCenter": {
-          "x": -8.23334217071533,
-          "y": -0.868512809276581,
-          "z": -23.4959964752197
-        },
-        "material": {
-          "texture": "part_huawenban.tga"
-        },
-        "mergeShapesDataKey": "8769424600771919873",
+        "name": "Border",
         "position": {
-          "x": -8.23334217071533,
-          "y": -0.868512809276581,
-          "z": -23.4959964752197
-        },
-        "restitution": 0.07,
-        "rotation": {
-          "z": 44.9999885559082
-        },
-        "scale": {
-          "x": 4.5,
-          "y": 3,
-          "z": 3
-        },
-        "size": {
-          "x": 4.21231842041016,
-          "y": 2.10615921020508,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "91784ac5-3fbe-4e6b-8c58-7d4499999d6a",
-        "density": 5.5,
-        "friction": 0.56,
-        "id": "8769429899790958593",
-        "massCenter": {
-          "y": -0.13400012254715,
-          "z": -23
-        },
-        "material": {
-          "texture": "part_huawenban.tga"
-        },
-        "position": {
-          "y": -0.13400012254715,
-          "z": -23
-        },
-        "restitution": 0.07,
-        "rotation": {
-          "z": -1.70754742612189e-06
-        },
-        "scale": {
-          "x": 15,
-          "y": 3,
-          "z": 2
-        },
-        "size": {
-          "x": 15,
-          "y": 3,
-          "z": 1.99999976158142
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "28c45ada-1242-4376-b46f-687176bec28b",
-        "density": 7.9,
-        "friction": 0.2,
-        "id": "8770081239134650369",
-        "massCenter": {
-          "y": 6,
-          "z": 20.0014972686768
-        },
-        "material": {
-          "alpha": 0.5,
-          "color": {
-            "b": 16,
-            "r": 32
-          },
-          "texture": "part_gangban.tga"
-        },
-        "position": {
-          "y": 6,
-          "z": 20.0014972686768
-        },
-        "restitution": 0.06,
-        "scale": {
-          "x": 7.99996,
-          "y": 15,
-          "z": 0.293993
-        },
-        "size": {
-          "x": 7.99995803833008,
-          "y": 14.9999666213989,
-          "z": 0.29399311542511
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_PartOperation",
-        "batchType": "Dynamic",
-        "btsKey": "cca42dc6-e80d-4770-8b60-b0226fdc7608",
-        "collisionUniqueKey": "8769424605747904513",
-        "componentList": [
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "batchType": "Dynamic",
-            "booleanOperation": 1,
-            "btsKey": "e4458daa-7a64-46ae-8c0c-f9c362b9c8f0",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8770102712690851841",
-            "massCenter": {
-              "x": -7.34860372543335,
-              "y": 0.22288966178894,
-              "z": -20
-            },
-            "position": {
-              "x": -7.34860372543335,
-              "y": 0.22288966178894,
-              "z": -20
-            },
-            "restitution": 0.3,
-            "rotation": {
-              "z": 45
-            },
-            "scale": {
-              "x": 3,
-              "y": 2,
-              "z": 2
-            },
-            "size": {
-              "x": 3,
-              "y": 2,
-              "z": 2
-            }
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "batchType": "Dynamic",
-            "btsKey": "24718bf4-f4c0-4905-a3d1-701fc9434314",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8770102712698355713",
-            "massCenter": {
-              "x": -8,
-              "y": 1,
-              "z": -20
-            },
-            "position": {
-              "x": -8,
-              "y": 1,
-              "z": -20
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 2,
-              "y": 2,
-              "z": 2
-            },
-            "size": {
-              "x": 2,
-              "y": 2,
-              "z": 2
-            }
-          }
-        ],
-        "density": 5.5,
-        "friction": 0.56,
-        "id": "8770102712682856449",
-        "lineVelocity": {
-          "x": -3,
-          "y": 3
-        },
-        "massCenter": {
-          "x": 8.54700183868408,
-          "y": -0.742646455764771,
-          "z": -23.4990005493164
-        },
-        "material": {
-          "texture": "part_huawenban.tga"
-        },
-        "mergeShapesDataKey": "8769424600771919873",
-        "position": {
-          "x": 8.54700183868408,
-          "y": -0.742646455764771,
-          "z": -23.4990005493164
-        },
-        "restitution": 0.07,
-        "rotation": {
-          "z": 90
-        },
-        "scale": {
-          "x": 4.49999,
-          "y": 3,
-          "z": 3
-        },
-        "size": {
-          "x": 4.21231079101562,
-          "y": 2.10615921020508,
-          "z": 3
-        },
-        "useAnchor": true
+          "z": -0.049000009894371
+        }
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -1195,575 +841,1112 @@
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/41989222-2674-4522-b6c4-1604651e0b4e",
-        "id": "8770762446411366401",
-        "name": "Flag",
-        "position": {
-          "x": -9.7593936920166,
-          "y": -0.135000005364418,
-          "z": -16.7449989318848
-        },
-        "scale": {
-          "x": 0.400997,
-          "y": 0.400997,
-          "z": 0.400995
-        },
-        "size": {
-          "x": 0.400996595621109,
-          "y": 0.400996595621109,
-          "z": 0.400994896888733
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/41989222-2674-4522-b6c4-1604651e0b4e",
-        "id": "8770765156938596353",
-        "name": "Flag",
-        "position": {
-          "x": -9.7593936920166,
-          "y": -0.135000005364418,
-          "z": 12.7429981231689
-        },
-        "scale": {
-          "x": 0.400997,
-          "y": 0.400997,
-          "z": 0.400995
-        },
-        "size": {
-          "x": 0.400996595621109,
-          "y": 0.400996595621109,
-          "z": 0.400994896888733
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/41989222-2674-4522-b6c4-1604651e0b4e",
-        "id": "8770765673707782145",
-        "name": "Flag",
-        "position": {
-          "x": 9.74460697174072,
-          "y": -0.135000005364418,
-          "z": -16.7449989318848
-        },
-        "rotation": {
-          "y": 180
-        },
-        "scale": {
-          "x": 0.400997,
-          "y": 0.400997,
-          "z": 0.400995
-        },
-        "size": {
-          "x": 0.400996595621109,
-          "y": 0.400996595621109,
-          "z": 0.400994896888733
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/41989222-2674-4522-b6c4-1604651e0b4e",
-        "id": "8770765673710174209",
-        "name": "Flag",
-        "position": {
-          "x": 9.74460697174072,
-          "y": -0.135000005364418,
-          "z": 12.7429981231689
-        },
-        "rotation": {
-          "y": 180
-        },
-        "scale": {
-          "x": 0.400997,
-          "y": 0.400997,
-          "z": 0.400995
-        },
-        "size": {
-          "x": 0.400996595621109,
-          "y": 0.400996595621109,
-          "z": 0.400994896888733
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "2119f7fc-b1ff-47f9-ada7-cef8dc01fe1f",
-        "density": 3.63,
-        "friction": 0.2,
-        "id": "8770774311329447937",
-        "lineVelocity": {
-          "y": 15
-        },
-        "massCenter": {
-          "y": -0.762000203132629,
-          "z": 15.9770154953003
-        },
-        "material": {
-          "color": {
-            "b": 34,
-            "r": 38
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "btsKey": "33e9d629-6346-4c56-9057-8f761eefb9d0",
+            "collisionUniqueKey": "8769424605747904513",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "booleanOperation": 1,
+                "btsKey": "e4458daa-7a64-46ae-8c0c-f9c362b9c8f0",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8769429899766857729",
+                "massCenter": {
+                  "x": -7.34860372543335,
+                  "y": 0.22288966178894,
+                  "z": -20
+                },
+                "position": {
+                  "x": -7.34860372543335,
+                  "y": 0.22288966178894,
+                  "z": -20
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "z": 45
+                },
+                "scale": {
+                  "x": 3,
+                  "y": 2,
+                  "z": 2
+                },
+                "size": {
+                  "x": 3,
+                  "y": 2,
+                  "z": 2
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "24718bf4-f4c0-4905-a3d1-701fc9434314",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8769429899781324801",
+                "massCenter": {
+                  "x": -8,
+                  "y": 1,
+                  "z": -20
+                },
+                "position": {
+                  "x": -8,
+                  "y": 1,
+                  "z": -20
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 2,
+                  "y": 2,
+                  "z": 2
+                },
+                "size": {
+                  "x": 2,
+                  "y": 2,
+                  "z": 2
+                }
+              }
+            ],
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8769429899748343809",
+            "lineVelocity": {
+              "x": 3,
+              "y": 3
+            },
+            "massCenter": {
+              "x": -8.23334217071533,
+              "y": -0.868512809276581,
+              "z": -23.4959964752197
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "mergeShapesDataKey": "8769424600771919873",
+            "position": {
+              "x": -8.23334217071533,
+              "y": -0.868512809276581,
+              "z": -23.4959964752197
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "z": 44.9999885559082
+            },
+            "scale": {
+              "x": 4.5,
+              "y": 3,
+              "z": 3
+            },
+            "size": {
+              "x": 4.21231842041016,
+              "y": 2.10615921020508,
+              "z": 3
+            },
+            "useAnchor": true
           },
-          "texture": "part_luanshi.tga"
-        },
-        "name": "Jumper",
-        "position": {
-          "y": -0.762000203132629,
-          "z": 15.9770154953003
-        },
-        "restitution": 0.17,
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "939b2b51-5645-4b86-810d-3ae31a0c83c8",
-        "density": 3.63,
-        "friction": 0.2,
-        "id": "8770782890006265857",
-        "lineVelocity": {
-          "y": 15
-        },
-        "massCenter": {
-          "y": -0.762000203132629,
-          "z": -20
-        },
-        "material": {
-          "color": {
-            "b": 34,
-            "r": 38
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "91784ac5-3fbe-4e6b-8c58-7d4499999d6a",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8769429899790958593",
+            "massCenter": {
+              "y": -0.13400012254715,
+              "z": -23
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "y": -0.13400012254715,
+              "z": -23
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "z": -1.70754742612189e-06
+            },
+            "scale": {
+              "x": 15,
+              "y": 3,
+              "z": 2
+            },
+            "size": {
+              "x": 15,
+              "y": 3,
+              "z": 1.99999976158142
+            },
+            "useAnchor": true
           },
-          "texture": "part_luanshi.tga"
-        },
-        "name": "Jumper",
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "batchType": "Dynamic",
+            "btsKey": "cca42dc6-e80d-4770-8b60-b0226fdc7608",
+            "collisionUniqueKey": "8769424605747904513",
+            "componentList": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "booleanOperation": 1,
+                "btsKey": "e4458daa-7a64-46ae-8c0c-f9c362b9c8f0",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8770102712690851841",
+                "massCenter": {
+                  "x": -7.34860372543335,
+                  "y": 0.22288966178894,
+                  "z": -20
+                },
+                "position": {
+                  "x": -7.34860372543335,
+                  "y": 0.22288966178894,
+                  "z": -20
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "z": 45
+                },
+                "scale": {
+                  "x": 3,
+                  "y": 2,
+                  "z": 2
+                },
+                "size": {
+                  "x": 3,
+                  "y": 2,
+                  "z": 2
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "24718bf4-f4c0-4905-a3d1-701fc9434314",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8770102712698355713",
+                "massCenter": {
+                  "x": -8,
+                  "y": 1,
+                  "z": -20
+                },
+                "position": {
+                  "x": -8,
+                  "y": 1,
+                  "z": -20
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 2,
+                  "y": 2,
+                  "z": 2
+                },
+                "size": {
+                  "x": 2,
+                  "y": 2,
+                  "z": 2
+                }
+              }
+            ],
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8770102712682856449",
+            "lineVelocity": {
+              "x": -3,
+              "y": 3
+            },
+            "massCenter": {
+              "x": 8.54700183868408,
+              "y": -0.742646455764771,
+              "z": -23.4990005493164
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "mergeShapesDataKey": "8769424600771919873",
+            "position": {
+              "x": 8.54700183868408,
+              "y": -0.742646455764771,
+              "z": -23.4990005493164
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "z": 90
+            },
+            "scale": {
+              "x": 4.49999,
+              "y": 3,
+              "z": 3
+            },
+            "size": {
+              "x": 4.21231079101562,
+              "y": 2.10615921020508,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "c6d6edc9-60e3-43f6-a5a2-8db468aed4c0",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8781063819415814145",
+            "massCenter": {
+              "y": 4,
+              "z": -2
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "y": 4,
+              "z": -2
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 22,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 22,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "715b7688-bb59-40bb-8ed5-1b71706c4fdc",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8777950200338808833",
+            "massCenter": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": 13
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": 13
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 0.999996,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 0.999996185302734,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "80816c38-de35-4af9-9dce-95d4664c0406",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8777960795926183937",
+            "massCenter": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": 10
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": 10
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 2,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 2,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "d73ad238-e9b4-4165-96e7-d659b568daaa",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8780995201278869505",
+            "massCenter": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": 7
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": 7
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 3,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 3,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "b2ebca42-b67c-43df-a3ca-a3d7f64d5b57",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8780995508527710209",
+            "massCenter": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": 4
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": 4
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 4,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 4,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "9bace59d-722f-45e4-a052-0baa5e649ae8",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8780995904961658881",
+            "massCenter": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": 1
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": 1
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 5,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 5,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "b38e3df7-723e-46da-9f2e-36c2937d3725",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8781046365344514049",
+            "massCenter": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -8
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -8
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 4,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 4,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "112ebc0e-c3e1-4683-8910-20f71687f1aa",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8781046365352493057",
+            "massCenter": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -14
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -14
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 2,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 2,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "0e107ac3-f4f1-40fd-8e7a-c3cd29e8e925",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8781046365360013313",
+            "massCenter": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -11
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -11
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 3,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 3,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "3d4d01bb-49b9-4aac-a208-2557d943d76d",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8781046365367484417",
+            "massCenter": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -17
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -17
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 0.999996,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 0.999996185302734,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "a17b57a4-ea81-48e6-b088-fe305b00dd7b",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8781046365374988289",
+            "massCenter": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -5
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -5
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 5,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 5,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "db4f192f-a1b0-49ac-be6a-1efa18f6d25a",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8781062645718122497",
+            "massCenter": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -2
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": -2
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 6,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 6,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "6da6e2ae-f76c-4ebe-a261-a9b55c6a0820",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8781063529195274241",
+            "massCenter": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": -2
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": -2
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 6,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 6,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "567626a0-876a-4607-82c3-ab594fcdfe5b",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8783917070695645185",
+            "massCenter": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": 1
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": 1
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 5,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 5,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "20aa52ae-0486-4eb5-9850-31d22d631367",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8783917399707631617",
+            "massCenter": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": 4
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": 4
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 6,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 6,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "e2550fac-1fb4-48e6-8c94-6045dcc630fc",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8783917896561819649",
+            "massCenter": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": 7
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": 7
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 5,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 5,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "a7701771-0e99-49df-bd1d-350e674de09b",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8783918080379977729",
+            "massCenter": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": 10
+            },
+            "material": {
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 13,
+              "y": -0.0720001012086868,
+              "z": 10
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "y": 6,
+              "z": 1.50099
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "y": 6,
+              "z": 1.50098526477814
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "293a75c0-0c6c-40d8-a72f-d2e7856de375",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8783923803005452289",
+            "lineVelocity": {
+              "z": 3
+            },
+            "massCenter": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": -11
+            },
+            "material": {
+              "color": {
+                "b": 54,
+                "g": 51,
+                "r": 51
+              },
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": -11
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999,
+              "z": 10
+            },
+            "size": {
+              "x": 1.9999920129776,
+              "z": 10
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "adf0d580-f5d4-4e90-abe9-dffa2bc1e53f",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8783929095883735041",
+            "lineVelocity": {
+              "y": 15,
+              "z": 3
+            },
+            "massCenter": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": -5
+            },
+            "material": {
+              "color": {
+                "b": 54,
+                "g": 51,
+                "r": 51
+              },
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -13,
+              "y": -0.0720001012086868,
+              "z": -5
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 1.99999
+            },
+            "size": {
+              "x": 1.9999920129776
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8783908742025576449",
+        "name": "Obstacle",
         "position": {
-          "y": -0.762000203132629,
-          "z": -20
-        },
-        "restitution": 0.17,
-        "useAnchor": true
+          "y": 0.714000105857849,
+          "z": -1.99999952316284
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "2e31db2b-c67e-4e6b-9339-48a93db99b6a",
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8763791208552693761",
+            "massCenter": {
+              "y": -0.248000010848045,
+              "z": 4
+            },
+            "material": {
+              "color": {
+                "g": 37,
+                "r": 33
+              },
+              "texture": "part_luanshi.tga"
+            },
+            "name": "Sprint",
+            "position": {
+              "y": -0.248000010848045,
+              "z": 4
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "ed07ddcc-40e3-4f21-ae6d-1bde87c0f353",
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8783931520207536129",
+            "massCenter": {
+              "y": -0.248000010848045,
+              "z": -8
+            },
+            "material": {
+              "color": {
+                "g": 37,
+                "r": 33
+              },
+              "texture": "part_luanshi.tga"
+            },
+            "name": "Sprint",
+            "position": {
+              "y": -0.248000010848045,
+              "z": -8
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "1c274cff-2609-49d0-9082-0bdf38c91d03",
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8767880506464993281",
+            "massCenter": {
+              "y": 4.26000022888184,
+              "z": -2
+            },
+            "material": {
+              "color": {
+                "b": 58,
+                "g": 3
+              },
+              "texture": "part_luanshi.tga"
+            },
+            "name": "Rage",
+            "position": {
+              "y": 4.26000022888184,
+              "z": -2
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "939b2b51-5645-4b86-810d-3ae31a0c83c8",
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8770782890006265857",
+            "lineVelocity": {
+              "y": 15
+            },
+            "massCenter": {
+              "y": -0.762000203132629,
+              "z": -20
+            },
+            "material": {
+              "color": {
+                "b": 34,
+                "r": 38
+              },
+              "texture": "part_luanshi.tga"
+            },
+            "name": "Jumper",
+            "position": {
+              "y": -0.762000203132629,
+              "z": -20
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "2119f7fc-b1ff-47f9-ada7-cef8dc01fe1f",
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8770774311329447937",
+            "lineVelocity": {
+              "y": 15
+            },
+            "massCenter": {
+              "y": -0.762000203132629,
+              "z": 15.9770154953003
+            },
+            "material": {
+              "color": {
+                "b": 34,
+                "r": 38
+              },
+              "texture": "part_luanshi.tga"
+            },
+            "name": "Jumper",
+            "position": {
+              "y": -0.762000203132629,
+              "z": 15.9770154953003
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "c6e3f095-66c3-46a4-8a01-fd9d5ab6383f",
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8783919031813718017",
+            "lineVelocity": {
+              "y": 15
+            },
+            "massCenter": {
+              "x": 13,
+              "y": -0.762000203132629,
+              "z": 13
+            },
+            "material": {
+              "color": {
+                "b": 34,
+                "r": 38
+              },
+              "texture": "part_luanshi.tga"
+            },
+            "name": "Jumper",
+            "position": {
+              "x": 13,
+              "y": -0.762000203132629,
+              "z": 13
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          }
+        ],
+        "id": "8770113710647459841",
+        "name": "Buff"
       },
       {
         "__OBJ_TYPE": "Instance_Part",
         "batchType": "Dynamic",
-        "btsKey": "715b7688-bb59-40bb-8ed5-1b71706c4fdc",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8777950200338808833",
+        "btsKey": "efa5d931-c82b-479f-a495-8f54a6d23d32",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8791274463735808001",
+            "isFaceCamera": false,
+            "isLock": false,
+            "layoutFile": {
+              "asset": "asset/top_player.layout"
+            },
+            "position": {
+              "z": 0.2
+            },
+            "rotation": {
+              "y": 180
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8784161698298494977",
         "massCenter": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": 13
-        },
-        "material": {
-          "texture": "part_mutou.tga"
+          "y": 10.9559345245361,
+          "z": -23.9215087890625
         },
         "position": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": 13
+          "y": 10.9559345245361,
+          "z": -23.9215087890625
         },
-        "restitution": 0.15,
+        "restitution": 0.3,
         "scale": {
-          "x": 1.99999,
-          "y": 0.999996,
-          "z": 1.50099
+          "x": 9.99994,
+          "y": 4.99997,
+          "z": 0.258997
         },
         "size": {
-          "x": 1.9999920129776,
-          "y": 0.999996185302734,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "80816c38-de35-4af9-9dce-95d4664c0406",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8777960795926183937",
-        "massCenter": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": 10
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": 10
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 1.99999,
-          "y": 2,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 1.9999920129776,
-          "y": 2,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "d73ad238-e9b4-4165-96e7-d659b568daaa",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8780995201278869505",
-        "massCenter": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": 7
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": 7
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 1.99999,
-          "y": 3,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 1.9999920129776,
-          "y": 3,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "b2ebca42-b67c-43df-a3ca-a3d7f64d5b57",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8780995508527710209",
-        "massCenter": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": 4
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": 4
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 1.99999,
-          "y": 4,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 1.9999920129776,
-          "y": 4,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "9bace59d-722f-45e4-a052-0baa5e649ae8",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8780995904961658881",
-        "massCenter": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": 1
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": 1
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 1.99999,
-          "y": 5,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 1.9999920129776,
-          "y": 5,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "b38e3df7-723e-46da-9f2e-36c2937d3725",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8781046365344514049",
-        "massCenter": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -8
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -8
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 1.99999,
-          "y": 4,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 1.9999920129776,
-          "y": 4,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "112ebc0e-c3e1-4683-8910-20f71687f1aa",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8781046365352493057",
-        "massCenter": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -14
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -14
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 1.99999,
-          "y": 2,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 1.9999920129776,
-          "y": 2,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "0e107ac3-f4f1-40fd-8e7a-c3cd29e8e925",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8781046365360013313",
-        "massCenter": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -11
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -11
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 1.99999,
-          "y": 3,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 1.9999920129776,
-          "y": 3,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "3d4d01bb-49b9-4aac-a208-2557d943d76d",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8781046365367484417",
-        "massCenter": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -17
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -17
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 1.99999,
-          "y": 0.999996,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 1.9999920129776,
-          "y": 0.999996185302734,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "a17b57a4-ea81-48e6-b088-fe305b00dd7b",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8781046365374988289",
-        "massCenter": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -5
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -5
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 1.99999,
-          "y": 5,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 1.9999920129776,
-          "y": 5,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "db4f192f-a1b0-49ac-be6a-1efa18f6d25a",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8781062645718122497",
-        "massCenter": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -2
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "x": 13,
-          "y": -0.0720001012086868,
-          "z": -2
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 1.99999,
-          "y": 6,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 1.9999920129776,
-          "y": 6,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "6da6e2ae-f76c-4ebe-a261-a9b55c6a0820",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8781063529195274241",
-        "massCenter": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": -2
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "x": -13,
-          "y": -0.0720001012086868,
-          "z": -2
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 1.99999,
-          "y": 6,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 1.9999920129776,
-          "y": 6,
-          "z": 1.50098526477814
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "c6d6edc9-60e3-43f6-a5a2-8db468aed4c0",
-        "density": 1.26,
-        "friction": 0.28,
-        "id": "8781063819415814145",
-        "massCenter": {
-          "y": 4,
-          "z": -2
-        },
-        "material": {
-          "texture": "part_mutou.tga"
-        },
-        "position": {
-          "y": 4,
-          "z": -2
-        },
-        "restitution": 0.15,
-        "scale": {
-          "x": 22,
-          "z": 1.50099
-        },
-        "size": {
-          "x": 22,
-          "z": 1.50098526477814
+          "x": 9.99994373321533,
+          "y": 4.99997186660767,
+          "z": 0.25899663567543
         },
         "useAnchor": true
       }
@@ -1779,7 +1962,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0e88420067b18dba29c9793d5b74e8fa"
+      "setting.json": "dfbe6ddde50e3a048e2473109032a15f"
     },
     "VERSION": "0.23"
   }

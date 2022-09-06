@@ -14,14 +14,14 @@
                       "value": {
                         "__OBJ_TYPE": "T_Time",
                         "rawval": {
-                          "value": 200
+                          "value": 180
                         }
                       }
                     },
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Int",
-                        "rawval": 20
+                        "rawval": 7
                       }
                     },
                     {
@@ -227,6 +227,94 @@
                 "y": 147
               },
               "type": "T_Part"
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 1500
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "e5763bc8-c1ac-4b3a-bfdc-d0c444f56475"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d76c8b56-96e9-415d-96b8-c4ae42c3412a"
+              },
+              "pos": {
+                "x": 292,
+                "y": 438
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_DestoryPart",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "6011a09c-e62e-43b0-8725-dcf50516f47d"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e5763bc8-c1ac-4b3a-bfdc-d0c444f56475"
+              },
+              "pos": {
+                "x": 684,
+                "y": 662
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part"
+                }
+              ],
+              "id": {
+                "value": "6011a09c-e62e-43b0-8725-dcf50516f47d"
+              },
+              "pos": {
+                "x": 969,
+                "y": 689
+              },
+              "type": "T_Part"
             }
           ],
           "custom_trigger_data": {
@@ -242,6 +330,9 @@
                 "children": [
                   {
                     "action": "d1ac1fc5-cf72-4ae5-aaa4-762824eed87c"
+                  },
+                  {
+                    "action": "d76c8b56-96e9-415d-96b8-c4ae42c3412a"
                   }
                 ]
               }
@@ -261,7 +352,7 @@
   },
   "meta": {
     "EXPORT": {
-      "triggers.bts": "782a56a64939a081f2f480d25b7b0078"
+      "triggers.bts": "9caae26edd2799c816b1fd97e571c100"
     },
     "VERSION": "0.23"
   }

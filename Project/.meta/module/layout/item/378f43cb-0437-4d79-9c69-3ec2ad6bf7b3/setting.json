@@ -1,0 +1,56 @@
+{
+  "data": {
+    "md5": "e1e4036c95cd9a51c3b9c73eaa6d639d",
+    "path": "asset/top_player.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "Font_size": 48,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "e16c639e-e27b-4feb-8b5d-ceeba0678ea8"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 1.5000140667096
+            },
+            "UDim_Y": {
+              "Offect": 2.38411200115252e-07
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 387
+            },
+            "UDim_Y": {
+              "Offect": 83.75
+            }
+          },
+          "Text": "Ayam goyeng",
+          "text_key": {
+            "value": "asset/top_player.layout.StaticText#a257b536-3e0c-42bc-b7a0-41b571b6d02f"
+          },
+          "word_warpped": false
+        }
+      ],
+      "id": {
+        "value": "4905cc5f-3a05-4aa1-8aa4-1e218e3e4d89"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "e1e4036c95cd9a51c3b9c73eaa6d639d",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.23"
+  }
+}

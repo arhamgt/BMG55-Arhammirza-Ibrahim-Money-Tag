@@ -151,7 +151,7 @@
   },
   "personalShop": false,
   "playerCfg": "myplugin/player1",
-  "playTime": 1200,
+  "playTime": 1800,
   "qualityLevelData": {
     "maxLevel": [
       2,
@@ -312,7 +312,34 @@
         "save": true
       }
     ],
-    "global": [],
+    "global": [
+      {
+        "key": "TopMoney",
+        "run_type": "client",
+        "save": false,
+        "value": 1000
+      },
+      {
+        "key": "MoneyGlobal",
+        "run_type": "server",
+        "save": false,
+        "value": 1000
+      },
+      {
+        "key": "MoneyGlobalString",
+        "run_type": "server",
+        "save": false,
+        "value": "Murid Terkaya : -"
+      },
+      {
+        "key": "array_money",
+        "run_type": "server",
+        "save": false,
+        "value": [
+          0
+        ]
+      }
+    ],
     "ui": []
   },
   "waitAtInitPos": true,

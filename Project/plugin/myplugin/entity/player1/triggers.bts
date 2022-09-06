@@ -1,49 +1,31 @@
-When_Entitiy_Get_Buffed {
-	StartTimer2(
-		interval = 20,
-		object = GetCustomTriggerParams(key = "player"),
-		time = GetCustomTriggerParams(key = "buff_duration"),
-		timer = ""
-	) {
-		CreatePartByPartStorage(
-			id = "8766760408078565377",
-			map = "map001",
-			pos = ComputeV3(
-			op = "add",
-			p1 = GetEntityPosition(entity = GetCustomTriggerParams(key = "player")),
-			p2 = {
-				x = 0,
-				y = 1,
-				z = 0
-			}
-		)
-		)
-	}
-}
-
 GAME_GO {
 	$obj1.Money = 1000
 	SetHeadText(entity = $obj1, headText = Concat(p1 = "Uang : ", p2 = ToString($obj1.Money)), x = 0, y = -1)
-	StartTimer2(interval = 340, object = $obj1, time = 1, timer = "") {
+	StartTimer2(interval = 940, object = $obj1, time = 1, timer = "") {
 		ShowTip(entity = $obj1, keepTime = 60, textKey = "62c2688c-bc3c-4a13-a32e-9a090a1bb6a0", tipType = "1")
 	}
-	StartTimer2(interval = 500, object = $obj1, time = 1, timer = "") {
+	StartTimer2(interval = 1100, object = $obj1, time = 1, timer = "") {
 		ShowTip(entity = $obj1, keepTime = 20, textKey = "d8fb8509-f5a0-4f33-87eb-42c3603e6885", tipType = "1")
 	}
-	StartTimer2(interval = 520, object = $obj1, time = 1, timer = "") {
+	StartTimer2(interval = 1120, object = $obj1, time = 1, timer = "") {
 		ShowTip(entity = $obj1, keepTime = 60, textKey = "f88995e4-76c2-41f7-815c-3fa82eb0bd9f", tipType = "1")
 	}
-	StartTimer2(interval = 540, object = $obj1, time = 1, timer = "") {
+	StartTimer2(interval = 1140, object = $obj1, time = 1, timer = "") {
 		ShowTip(entity = $obj1, keepTime = 60, textKey = "0e3091ec-7516-497a-b702-2a3768f378fd", tipType = "1")
 	}
-	StartTimer2(interval = 560, object = $obj1, time = 1, timer = "") {
+	StartTimer2(interval = 1160, object = $obj1, time = 1, timer = "") {
 		ShowTip(entity = $obj1, keepTime = 60, textKey = "3749bfdb-71b9-4257-b5ea-29dfffe9bc23", tipType = "1")
 	}
-	StartTimer2(interval = 580, object = $obj1, time = 1, timer = "") {
+	StartTimer2(interval = 1180, object = $obj1, time = 1, timer = "") {
 		ShowTip(entity = $obj1, keepTime = 60, textKey = "7c59460c-755e-4222-94cb-361659f2ce6d", tipType = "1")
 	}
-	StartTimer2(interval = 600, object = $obj1, time = 1, timer = "") {
+	StartTimer2(interval = 1200, object = $obj1, time = 1, timer = "") {
 		ShowTip(entity = $obj1, keepTime = 20, textKey = "3af01aa2-15bb-4de2-afaa-cce6bf928cf8", tipType = "1")
+		AddEntityBuff(buffTime = 600, cfg = "myplugin/bcdfc43d-8913-45a1-b15c-e8aa81be6f61", entity = $obj1)
+	}
+	StartTimer2(interval = 1660, object = $obj1, time = 1, timer = "") {
+		ShowTip(entity = $obj1, keepTime = 60, textKey = "1897d234-444e-40a3-acf2-a2b9d74c93de", tipType = "1")
+		AddEntityBuff(cfg = "myplugin/1797658a-76df-4633-9218-e81740889412", entity = $obj1)
 	}
 }
 

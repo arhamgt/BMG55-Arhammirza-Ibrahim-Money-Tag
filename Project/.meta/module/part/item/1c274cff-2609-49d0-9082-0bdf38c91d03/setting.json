@@ -14,14 +14,14 @@
                       "value": {
                         "__OBJ_TYPE": "T_Time",
                         "rawval": {
-                          "value": 200
+                          "value": 300
                         }
                       }
                     },
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Int",
-                        "rawval": 20
+                        "rawval": 10
                       }
                     },
                     {
@@ -262,7 +262,7 @@
   },
   "meta": {
     "EXPORT": {
-      "triggers.bts": "468d5868bb09e7a16950b5ec66491eb2"
+      "triggers.bts": "05b020d7217b45ac2b3ef4fefd41b382"
     },
     "VERSION": "0.23"
   }

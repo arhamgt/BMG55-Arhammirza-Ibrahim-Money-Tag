@@ -14,14 +14,14 @@
                       "value": {
                         "__OBJ_TYPE": "T_Time",
                         "rawval": {
-                          "value": 200
+                          "value": 180
                         }
                       }
                     },
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Int",
-                        "rawval": 20
+                        "rawval": 7
                       }
                     },
                     {
@@ -49,7 +49,7 @@
                 "value": "d1ac1fc5-cf72-4ae5-aaa4-762824eed87c"
               },
               "pos": {
-                "x": 314,
+                "x": 312,
                 "y": 22
               }
             },
@@ -62,7 +62,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_ItemEntry",
-                        "rawval": "myplugin/54c7df47-9eb0-4890-aa8a-a1df54766093"
+                        "rawval": "myplugin/4e397ea3-6918-4e31-bea0-d3b1f9641435"
                       }
                     },
                     {
@@ -74,12 +74,11 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_ScenePos",
-                        "action": "1b52efdd-237e-4520-95e5-3ff4785a0e02",
+                        "action": "4d063795-a80c-4f66-a78f-a75c0723d361",
                         "rawval": {
                           "pos": {
                             "x": 12,
-                            "y": 0.0449998760223389,
-                            "z": 3
+                            "y": 0.0450342082977295
                           }
                         }
                       }
@@ -149,8 +148,8 @@
                 "value": "1a9f343f-301b-4bd8-a387-888755c7676d"
               },
               "pos": {
-                "x": 1245,
-                "y": 424
+                "x": 1203,
+                "y": 419
               }
             },
             {
@@ -162,7 +161,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Vector3",
-                        "action": "268ad7a0-04fc-42ce-b117-893885854bb2"
+                        "action": "3285e784-69cb-4525-bdef-57b58601c3a4"
                       }
                     },
                     {
@@ -182,11 +181,11 @@
                 }
               ],
               "id": {
-                "value": "1b52efdd-237e-4520-95e5-3ff4785a0e02"
+                "value": "4d063795-a80c-4f66-a78f-a75c0723d361"
               },
               "pos": {
-                "x": 1245,
-                "y": 238
+                "x": 1251,
+                "y": 158
               }
             },
             {
@@ -198,18 +197,18 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Part",
-                        "action": "954fcc18-efbc-4b02-b46e-049a74ef6f2e"
+                        "action": "683d4ef9-3285-4895-9573-9d52d321971c"
                       }
                     }
                   ]
                 }
               ],
               "id": {
-                "value": "268ad7a0-04fc-42ce-b117-893885854bb2"
+                "value": "3285e784-69cb-4525-bdef-57b58601c3a4"
               },
               "pos": {
-                "x": 1633,
-                "y": 240
+                "x": 1646,
+                "y": 164
               }
             },
             {
@@ -221,18 +220,106 @@
                 }
               ],
               "id": {
-                "value": "954fcc18-efbc-4b02-b46e-049a74ef6f2e"
+                "value": "683d4ef9-3285-4895-9573-9d52d321971c"
               },
               "pos": {
-                "x": 1947,
-                "y": 221
+                "x": 1937,
+                "y": 147
+              },
+              "type": "T_Part"
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 1500
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "ba0f58ce-afc3-431d-9e47-167535d43545"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bf40a1df-440e-4e4a-8728-00a7c0d1e5d3"
+              },
+              "pos": {
+                "x": 322,
+                "y": 473
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_DestoryPart",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "d8738e57-8dc0-42a9-8650-efeab9c47e4c"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ba0f58ce-afc3-431d-9e47-167535d43545"
+              },
+              "pos": {
+                "x": 716,
+                "y": 698
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part"
+                }
+              ],
+              "id": {
+                "value": "d8738e57-8dc0-42a9-8650-efeab9c47e4c"
+              },
+              "pos": {
+                "x": 1012,
+                "y": 727
               },
               "type": "T_Part"
             }
           ],
           "custom_trigger_data": {
             "name": {
-              "value": "bb4e286e-956d-4553-8f70-0088f723cfee"
+              "value": "05e54fa2-b856-4c1d-ae35-81fc414346f2"
             },
             "type": "Trigger_PartCreated"
           },
@@ -243,6 +330,9 @@
                 "children": [
                   {
                     "action": "d1ac1fc5-cf72-4ae5-aaa4-762824eed87c"
+                  },
+                  {
+                    "action": "bf40a1df-440e-4e4a-8728-00a7c0d1e5d3"
                   }
                 ]
               }
@@ -262,7 +352,7 @@
   },
   "meta": {
     "EXPORT": {
-      "triggers.bts": "468d5868bb09e7a16950b5ec66491eb2"
+      "triggers.bts": "9caae26edd2799c816b1fd97e571c100"
     },
     "VERSION": "0.23"
   }
