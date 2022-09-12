@@ -1,9 +1,0 @@
-DROPITEM_PICKED {
-	ConsumeItem2(entity = $obj1, item = "myplugin/d86ab419-0070-43cb-8b84-467d26d71001", num = 1, reason = "")
-	DoCustomTriggerCfg(
-		buff_duration = 5,
-		cfgForExecXXX = $obj1,
-		player = $obj1,
-		triggerNameForExecXXX = "When_Entitiy_Get_Buffed"
-	)
-}

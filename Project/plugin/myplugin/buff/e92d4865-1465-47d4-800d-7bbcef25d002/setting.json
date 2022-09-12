@@ -19,6 +19,14 @@
   "needSave": false,
   "reachDistance": 0,
   "skin": [],
+  "sound": {
+    "loop": false,
+    "multiPly": 1,
+    "path": "asset/Sound/jump_sfx1.mp3",
+    "selfOnly": false,
+    "sound": "@Sound/jump_sfx1.mp3",
+    "volume": 0.3
+  },
   "sync": "all",
   "unassailable": 0,
   "undamageable": 0

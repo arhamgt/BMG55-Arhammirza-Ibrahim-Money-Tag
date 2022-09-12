@@ -24,7 +24,7 @@
       "m": 40
     },
     "player_range": {
-      "max": 6,
+      "max": 8,
       "min": 1
     },
     "playTime": {
@@ -71,48 +71,41 @@
       ],
       "global": [
         {
-          "key": "TopMoney",
-          "run_type": "client",
-          "value": {
-            "rawval": 1000
-          }
-        },
-        {
           "key": "MoneyGlobal",
           "value": {
             "rawval": 1000
           }
         },
         {
-          "key": "MoneyGlobalString",
+          "key": "MoneyGlobalPlayer",
           "type": "string",
           "value": {
-            "__OBJ_TYPE": "T_String",
-            "rawval": "Murid Terkaya : -"
+            "__OBJ_TYPE": "T_String"
           }
         },
         {
-          "key": "array_money",
-          "struct_type": "array",
+          "key": "IsGameStart",
+          "type": "bool",
           "value": {
-            "__OBJ_TYPE": "T_IntArray",
-            "rawval": [
-              0
-            ]
+            "__OBJ_TYPE": "T_Bool",
+            "rawval": true
           }
         }
       ]
     },
     "waitGoTime": {
-      "value": 60
+      "value": 240
+    },
+    "waitPlayerTime": {
+      "value": 360
     },
     "waitStartTime": {
-      "value": 60
+      "value": 100
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "85add0658557101318f70e8049ca0206",
+      "setting.json": "5e02e773789ae579bb69308d97b8c78e",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""

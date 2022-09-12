@@ -35,6 +35,14 @@
   "needSave": false,
   "reachDistance": 0,
   "skin": [],
+  "sound": {
+    "loop": false,
+    "multiPly": 1,
+    "path": "asset/Sound/drink_sfx.mp3",
+    "selfOnly": true,
+    "sound": "@Sound/drink_sfx.mp3",
+    "volume": 1
+  },
   "sync": "all",
   "unassailable": 0,
   "undamageable": 0

@@ -1,6 +1,9 @@
 GAME_GO {
+	@IsGameStart = true
 	$obj1.Money = 1000
-	SetHeadText(entity = $obj1, headText = Concat(p1 = "Uang : ", p2 = ToString($obj1.Money)), x = 0, y = -1)
+	StartTimer2(interval = 40, time = 1, timer = "") {
+		SetHeadText(entity = $obj1, headText = Concat(p1 = "Jajan: ", p2 = ToString($obj1.Money)), x = 0, y = -1)
+	}
 	StartTimer2(interval = 940, object = $obj1, time = 1, timer = "") {
 		ShowTip(entity = $obj1, keepTime = 60, textKey = "62c2688c-bc3c-4a13-a32e-9a090a1bb6a0", tipType = "1")
 	}
@@ -23,34 +26,63 @@ GAME_GO {
 		ShowTip(entity = $obj1, keepTime = 20, textKey = "3af01aa2-15bb-4de2-afaa-cce6bf928cf8", tipType = "1")
 		AddEntityBuff(buffTime = 600, cfg = "myplugin/bcdfc43d-8913-45a1-b15c-e8aa81be6f61", entity = $obj1)
 	}
-	StartTimer2(interval = 1660, object = $obj1, time = 1, timer = "") {
-		ShowTip(entity = $obj1, keepTime = 60, textKey = "1897d234-444e-40a3-acf2-a2b9d74c93de", tipType = "1")
+	StartTimer2(interval = 1540, object = $obj1, time = 1, timer = "") {
+		ShowTip(entity = $obj1, keepTime = 60, textKey = "8e9ad19d-89cb-49fb-92fb-e04a046e6575", tipType = "1")
+	}
+	StartTimer2(interval = 1700, object = $obj1, time = 1, timer = "") {
+		ShowTip(entity = $obj1, keepTime = 20, textKey = "1897d234-444e-40a3-acf2-a2b9d74c93de", tipType = "1")
 		AddEntityBuff(cfg = "myplugin/1797658a-76df-4633-9218-e81740889412", entity = $obj1)
+		If (@MoneyGlobal < $obj1.Money) {
+			@MoneyGlobal = $obj1.Money
+			@MoneyGlobalPlayer = GetEntityName(entity = $obj1)
+		}
+	}
+	StartTimer2(interval = 1720, object = $obj1, time = 1, timer = "") {
+		ShowTip(
+			entity = $obj1,
+			keepTime = 60,
+			textKey = Concat(
+			p1 = Concat(p1 = "Juara: ", p2 = @MoneyGlobalPlayer),
+			p2 = Concat(p1 = " | Uang Jajan: ", p2 = ToString(@MoneyGlobal))
+		),
+			tipType = "1"
+		)
+		StartTimer2(interval = 60, time = 1, timer = "") {
+			GameOver()
+		}
 	}
 }
 
 ENTITY_DAMAGE {
 	AddEntityHp(entity = $obj1, step = 1)
-		If (ToString($obj1.Money) == "0") {
-		ShowTip(entity = $obj2, keepTime = 60, textKey = "7bbb819e-527c-4f44-a32a-aa6871202796", tipType = "2")
-	} ElseIf (true) {
-				If ($obj2.Is_Raging) {
-			$obj2.Is_Raging = false
-			$obj2.IsDoneAttack = true
-			$obj2.Money = $obj2.Money + $obj1.Money
-			$obj1.Money = 0
-			SetHeadText(entity = $obj2, headText = Concat(p1 = "Uang : ", p2 = ToString($obj2.Money)), x = 0, y = -1)
-			SetHeadText(entity = $obj1, headText = Concat(p1 = "Uang : ", p2 = ToString($obj1.Money)), x = 0, y = -1)
-			RemoveBuffByFullName(buff = "myplugin/070f7816-d3ac-4df9-8c79-4e9960dd88f1", entity = $obj2, toTeam = false)
+	If (@IsGameStart) {
+				If (ToString($obj1.Money) == "0") {
+			ShowTip(entity = $obj2, keepTime = 60, textKey = "7bbb819e-527c-4f44-a32a-aa6871202796", tipType = "2")
 		} ElseIf (true) {
-			$obj2.Money = $obj2.Money + 100
-			$obj1.Money = $obj1.Money - 100
-			SetHeadText(entity = $obj2, headText = Concat(p1 = "Uang : ", p2 = ToString($obj2.Money)), x = 0, y = -1)
-			SetHeadText(entity = $obj1, headText = Concat(p1 = "Uang : ", p2 = ToString($obj1.Money)), x = 0, y = -1)
+						If ($obj2.Is_Raging) {
+				$obj2.Is_Raging = false
+				$obj2.IsDoneAttack = true
+				$obj2.Money = $obj2.Money + $obj1.Money
+				$obj1.Money = 0
+				SetHeadText(entity = $obj2, headText = Concat(p1 = "Jajan: ", p2 = ToString($obj2.Money)), x = 0, y = -1)
+				SetHeadText(entity = $obj1, headText = Concat(p1 = "Jajan: ", p2 = ToString($obj1.Money)), x = 0, y = -1)
+				RemoveBuffByFullName(buff = "myplugin/070f7816-d3ac-4df9-8c79-4e9960dd88f1", entity = $obj2, toTeam = false)
+				AddEntityBuff(buffTime = 20, cfg = "myplugin/c7bc89ad-0380-4196-8b15-6907417c6f30", entity = $obj1)
+			} ElseIf (true) {
+				$obj2.Money = $obj2.Money + 100
+				$obj1.Money = $obj1.Money - 100
+				SetHeadText(entity = $obj2, headText = Concat(p1 = "Jajan: ", p2 = ToString($obj2.Money)), x = 0, y = -1)
+				SetHeadText(entity = $obj1, headText = Concat(p1 = "Jajan: ", p2 = ToString($obj1.Money)), x = 0, y = -1)
+			}
 		}
 	}
 }
 
 GAME_START {
-	ShowTip(entity = $obj1, keepTime = 100, textKey = "5e369bfa-0f5f-45ba-9900-9c1bf7e48995", tipType = "1")
+	ShowTip(entity = $obj1, keepTime = 300, textKey = "5e369bfa-0f5f-45ba-9900-9c1bf7e48995", tipType = "1")
+	AddEntityBuff(cfg = "myplugin/c6624349-03e0-400c-b998-3353058286ab", entity = $obj1)
+}
+
+ENTITY_ENTER {
+	@IsGameStart = false
 }

@@ -1,54 +1,100 @@
 {
   "data": {
-    "md5": "e1e4036c95cd9a51c3b9c73eaa6d639d",
+    "md5": "5fb0888072b5913831cb4aa0b8c27a9a",
     "path": "asset/top_player.layout",
     "root": {
       "anchor": {
-        "HorizontalAlignment": "Centre"
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
       },
       "children": [
         {
-          "__OBJ_TYPE": "StaticText",
+          "__OBJ_TYPE": "StaticImage",
           "anchor": {
             "HorizontalAlignment": "Centre",
             "VerticalAlignment": "Centre"
           },
-          "Font_size": 48,
-          "HorzFormatting": "CentreAligned",
+          "FillPosition": "Left_With180Degree",
+          "FillType": "With180Degree",
           "id": {
-            "value": "e16c639e-e27b-4feb-8b5d-ceeba0678ea8"
+            "value": "451c37e1-175e-4510-be35-3316e251a81e"
+          },
+          "Image": {
+            "asset": "asset/Sprite/arham.png"
           },
           "pos": {
             "UDim_X": {
-              "Offect": 1.5000140667096
+              "Offect": -0.1589899671198
             },
             "UDim_Y": {
-              "Offect": 2.38411200115252e-07
+              "Offect": -57.4626855263383
             }
           },
           "size": {
             "UDim_X": {
-              "Offect": 387
+              "Offect": 0,
+              "Scale": 0.8
             },
             "UDim_Y": {
-              "Offect": 83.75
+              "Offect": 0,
+              "Scale": 0.8
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "Font_size": 36,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "90a58b58-b38e-4fe8-bdfb-9268bc688749"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": -0.6255730839312
+            },
+            "UDim_Y": {
+              "Offect": -0.6567058084544
             }
           },
-          "Text": "Ayam goyeng",
-          "text_key": {
-            "value": "asset/top_player.layout.StaticText#a257b536-3e0c-42bc-b7a0-41b571b6d02f"
+          "size": {
+            "UDim_X": {
+              "Offect": 661.26122196759
+            },
+            "UDim_Y": {
+              "Offect": 128.179115861643
+            }
           },
-          "word_warpped": false
+          "Text": "\"Money is EVERYTHING\" -ArhamGT-",
+          "text_key": {
+            "value": "asset/top_player.layout.StaticText#88663210-16df-4c25-b53f-eb2141dd7f2a"
+          }
         }
       ],
       "id": {
         "value": "4905cc5f-3a05-4aa1-8aa4-1e218e3e4d89"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": -5.3723850249886
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 700
+        },
+        "UDim_Y": {
+          "Offect": 700
+        }
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "e1e4036c95cd9a51c3b9c73eaa6d639d",
+      "layout": "5fb0888072b5913831cb4aa0b8c27a9a",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.23"

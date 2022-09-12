@@ -1,7 +1,7 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon_pearl.png"
+      "asset": "asset/Sprite/burgerGT.png"
     },
     "item": {
       "base": {
@@ -667,7 +667,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "c6756c6b110b5b60b0bbe141a28ac852",
+      "setting.json": "976420dedcedc8aebabe46f376824dca",
       "triggers.bts": "c92c9a55af1aee928605f3f3046c2813"
     },
     "VERSION": "0.23"

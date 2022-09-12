@@ -9,12 +9,18 @@
       "value": "buff_070f7816-d3ac-4df9-8c79-4e9960dd88f1"
     },
     "sound": {
-      "selfOnly": true
+      "selfOnly": true,
+      "sound": {
+        "asset": "asset/Sound/eat_sfx.mp3"
+      },
+      "volume": {
+        "value": 0.45
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "bbe7ba17ec13e1bb979aaf2613c60b66"
+      "setting.json": "338c276697228107ffcaaaf11271dde3"
     },
     "VERSION": "0.23"
   }

@@ -127,7 +127,7 @@
     },
     "useGroup": "_imagesets_"
   },
-  "maxPlayers": 6,
+  "maxPlayers": 8,
   "meshPartStaticMergeRender": true,
   "minPlayers": 1,
   "moveStateConfig": {
@@ -314,36 +314,28 @@
     ],
     "global": [
       {
-        "key": "TopMoney",
-        "run_type": "client",
-        "save": false,
-        "value": 1000
-      },
-      {
         "key": "MoneyGlobal",
         "run_type": "server",
         "save": false,
         "value": 1000
       },
       {
-        "key": "MoneyGlobalString",
+        "key": "MoneyGlobalPlayer",
         "run_type": "server",
         "save": false,
-        "value": "Murid Terkaya : -"
+        "value": ""
       },
       {
-        "key": "array_money",
+        "key": "IsGameStart",
         "run_type": "server",
         "save": false,
-        "value": [
-          0
-        ]
+        "value": true
       }
     ],
     "ui": []
   },
   "waitAtInitPos": true,
-  "waitGoTime": 60,
-  "waitPlayerTime": 0,
-  "waitStartTime": 60
+  "waitGoTime": 240,
+  "waitPlayerTime": 360,
+  "waitStartTime": 100
 }

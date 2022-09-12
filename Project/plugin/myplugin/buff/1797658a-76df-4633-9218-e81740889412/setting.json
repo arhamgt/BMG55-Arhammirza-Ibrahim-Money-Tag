@@ -9,22 +9,6 @@
   "deDmgPct": 0,
   "dropDamageRatio": 0,
   "dropDamageStart": 0,
-  "effect": {
-    "effect": "asset/effect/Red Spinning Light Wave Effect/gfxy207_rotating light strip_red_3d.effect",
-    "once": true,
-    "pos": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "scale": {
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "selfOnly": false,
-    "yaw": 0
-  },
   "gravity": 0,
   "hide": 0,
   "jumpSpeed": 0,
@@ -35,6 +19,14 @@
   "needSave": false,
   "reachDistance": 0,
   "skin": [],
+  "sound": {
+    "loop": false,
+    "multiPly": 1,
+    "path": "asset/Sound/peluitakhir_sfx1.mp3",
+    "selfOnly": true,
+    "sound": "@Sound/peluitakhir_sfx1.mp3",
+    "volume": 0.5
+  },
   "sync": "all",
   "unassailable": 0,
   "undamageable": 0

@@ -2,7 +2,7 @@
   "data": {
     "dropSpeed": 1,
     "icon": {
-      "asset": "asset/icon_pearl.png"
+      "asset": "asset/Sprite/drinkGT-export.png"
     },
     "item": {
       "base": {
@@ -173,7 +173,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "86ab17613307640750150bb303ecef86",
+      "setting.json": "1e85553fc8d7ee175c6da38c554e37c9",
       "triggers.bts": "a1eed5159a95c8335e76cdb39de83146"
     },
     "VERSION": "0.23"

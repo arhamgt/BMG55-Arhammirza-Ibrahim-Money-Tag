@@ -1,14 +1,16 @@
 PART_CREATED {
-	StartTimer2(interval = 180, time = 7, timer = "") {
-		SpawnItemToWorld(
-			count = 1,
-			fullName = "myplugin/4e397ea3-6918-4e31-bea0-d3b1f9641435",
-			map = GetStaticMap(create = true, name = "map001"),
-			pos = ComputeV3(op = "add", p1 = GetPartPosition(part = $part), p2 = { x = 0, y = 1, z = 0 }),
-			time = 1220
-		)
-	}
-	StartTimer2(interval = 1500, time = 1, timer = "") {
-		DestoryPart(part = $part)
+	StartTimer2(interval = 680, time = 1, timer = "") {
+		StartTimer2(interval = 180, time = 7, timer = "") {
+			SpawnItemToWorld(
+				count = 1,
+				fullName = "myplugin/4e397ea3-6918-4e31-bea0-d3b1f9641435",
+				map = GetStaticMap(create = true, name = "map001"),
+				pos = ComputeV3(op = "add", p1 = GetPartPosition(part = $part), p2 = { x = 0, y = 2, z = 0 }),
+				time = 1220
+			)
+		}
+		StartTimer2(interval = 1340, time = 1, timer = "") {
+			DestoryPart(part = $part)
+		}
 	}
 }

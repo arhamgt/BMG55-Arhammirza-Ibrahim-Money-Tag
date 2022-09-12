@@ -1,21 +1,22 @@
 {
   "data": {
-    "castEffect": {
-      "effect": {
-        "asset": "asset/effect/Red Spinning Light Wave Effect/gfxy207_rotating light strip_red_3d.effect"
-      }
-    },
     "moveSpeed": -6,
     "name": {
       "value": "5ac00f3a-3ef5-45cb-9917-d2e5638214ab"
     },
     "sound": {
-      "selfOnly": true
+      "selfOnly": true,
+      "sound": {
+        "asset": "asset/Sound/peluitakhir_sfx1.mp3"
+      },
+      "volume": {
+        "value": 0.5
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ed7fcb10255d1342d499b98d6e26577a"
+      "setting.json": "355a8f2b010a2586bdd5974b6f7b8bea"
     },
     "VERSION": "0.23"
   }

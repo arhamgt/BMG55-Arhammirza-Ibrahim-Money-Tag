@@ -1,0 +1,21 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Orange and Blue Dot Explosion Effect/sots208_ light spot_01_orange blue_3d.effect"
+      },
+      "pos": {
+        "y": 1
+      }
+    },
+    "name": {
+      "value": "buff_c7bc89ad-0380-4196-8b15-6907417c6f30"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8b17c7a45af7f51f181f49e3555952ec"
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -10,12 +10,15 @@
       "value": "buff_76d747ed-4695-4d47-ba4d-3b1ffa0e1d89"
     },
     "sound": {
-      "selfOnly": true
+      "selfOnly": true,
+      "sound": {
+        "asset": "asset/Sound/drink_sfx.mp3"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "db062151c6635bb7d695c53623b89344"
+      "setting.json": "7705d065f92902e60125df3ecdafcb97"
     },
     "VERSION": "0.23"
   }

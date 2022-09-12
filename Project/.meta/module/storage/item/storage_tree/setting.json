@@ -1,31 +1,8 @@
 {
-  "data": {
-    "instances": [
-      {
-        "__OBJ_TYPE": "Instance_Part_Storage",
-        "batchType": "Dynamic",
-        "btsKey": "dbf90cd2-8d96-4e30-9ba0-5b17b5580bd2",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8766760408078565377",
-        "massCenter": {
-          "y": -1
-        },
-        "name": "Trap",
-        "restitution": 0.3,
-        "scale": {
-          "y": 1.01
-        },
-        "size": {
-          "y": 1.01
-        },
-        "useAnchor": true
-      }
-    ]
-  },
+  "data": [],
   "meta": {
     "EXPORT": {
-      "setting.json": "0ed2a6e7fbf0fa511e3266c0c7b657b9"
+      "setting.json": "d751713988987e9331980363e24189ce"
     },
     "VERSION": "0.23"
   }

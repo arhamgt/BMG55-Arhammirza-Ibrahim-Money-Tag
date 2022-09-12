@@ -4,7 +4,7 @@
   "canEquipPlural": true,
   "canUse": false,
   "dropSpeed": 0.2,
-  "icon": "@asset/icon_pearl.png",
+  "icon": "@asset/Sprite/burgerGT.png",
   "itemname": "8eedf423-8b45-4392-81a9-f7cef4b73315",
   "needSave": false,
   "stack_count_max": 1,

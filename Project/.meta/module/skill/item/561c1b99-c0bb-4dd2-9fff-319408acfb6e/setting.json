@@ -7,19 +7,27 @@
         "z": 2
       }
     },
+    "castSound": {
+      "selfOnly": true,
+      "sound": {
+        "asset": "asset/Sound/punch_sfx1.mp3"
+      },
+      "volume": {
+        "value": 0.24
+      }
+    },
     "name": {
       "value": "skill_561c1b99-c0bb-4dd2-9fff-319408acfb6e"
     },
     "skill": {
       "base": {
-        "__OBJ_TYPE": "Skill_MeleeAttack",
-        "range": 3
+        "__OBJ_TYPE": "Skill_MeleeAttack"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "1c0f17bbe7f2676e2b77f088c702125f",
+      "setting.json": "90675d61646157a0f33bfadd1672bcc6",
       "triggers.bts": ""
     },
     "VERSION": "0.23"

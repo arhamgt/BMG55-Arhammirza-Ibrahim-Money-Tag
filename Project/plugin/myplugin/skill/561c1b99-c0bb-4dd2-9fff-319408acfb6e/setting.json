@@ -21,6 +21,14 @@
   "backSwingTime": 0,
   "castAction": "",
   "castActionTime": -1,
+  "castSound": {
+    "loop": false,
+    "multiPly": 1,
+    "path": "asset/Sound/punch_sfx1.mp3",
+    "selfOnly": true,
+    "sound": "@Sound/punch_sfx1.mp3",
+    "volume": 0.24
+  },
   "cdMaskConfig": {
     "AntiClockwise": false,
     "FillPosition": "",
@@ -65,7 +73,7 @@
   "isShowCdPoint": false,
   "isTouch": false,
   "preSwingTime": 0,
-  "range": 3,
+  "range": 4,
   "sensitivityFactor": 1,
   "startAction": "",
   "startActionTime": 0,
