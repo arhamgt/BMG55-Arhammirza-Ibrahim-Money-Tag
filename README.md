@@ -4,8 +4,6 @@
 
 Remember "Money is EVERYTHIIINGG!!!" - ArhamGT 
 
-Latest update:
-
--UI balancing
+Latest update: UI balancing
 
 This game is originally created by me, ArhamGT.
